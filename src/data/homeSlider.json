@@ -1,0 +1,49 @@
+{
+  "overlayGradient": "linear-gradient(180deg, rgba(16, 12, 8, 0.6) 0%, rgba(16, 12, 8, 0.6) 100%)",
+  "swiper": {
+    "speed": 1500,
+    "autoplayDelay": 2500
+  },
+  "modalVideo": {
+    "channel": "youtube",
+    "videoId": "r4KpWiK08vM",
+    "ratio": "16:9",
+    "animationSpeed": 350
+  },
+  "bookTripLabel": "Book a Trip",
+  "watchTourLabel": "Watch Tour",
+  "slides": [
+    {
+      "id": 1,
+      "tag": "Hajj & Umrah",
+      "title": "<span>Spiritual Journeys</span> with Premium <span>Umrah Packages</span>",
+      "image": "/assets/images/home/slider/premium-umrah-packages.png",
+      "buttonUrl": "/hajj-umrah",
+      "videoClass": ""
+    },
+    {
+      "id": 2,
+      "tag": "Flight Tickets",
+      "title": "<span>Best International Fares</span> and Global <span>Bookings</span>",
+      "image": "/assets/images/home/slider/international-fares.png",
+      "buttonUrl": "/services/flight-tickets",
+      "videoClass": "video1"
+    },
+    {
+      "id": 3,
+      "tag": "Visit Visa",
+      "title": "<span>Quick Visa Processing</span> for Every <span>Destination</span>",
+      "image": "/assets/images/home/slider/quick-visa-processing.png",
+      "buttonUrl": "/visas/global",
+      "videoClass": "video2"
+    },
+    {
+      "id": 4,
+      "tag": "Tour Packages",
+      "title": "<span>Explore the World</span> with Custom <span>Holidays</span>",
+      "image": "/assets/images/home/slider/custom-holidays.png",
+      "buttonUrl": "/services/tour-packages",
+      "videoClass": "video3"
+    }
+  ]
+}

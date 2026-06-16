@@ -1,0 +1,682 @@
+{
+  "umrahByAir": [
+    {
+      "id": "1",
+      "slug": "premium-umrah-package-by-air-7-days",
+      "batch": "7 Days / 8 Nights",
+      "img": "/assets/img/home1/package-card-img1.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Premium Umrah Package by Air - 7 Days",
+      "price": "1,299",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah"
+      ],
+      "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a premium Umrah journey with our 7-day package by air. This comprehensive package includes comfortable flights, premium hotel accommodations near the Haram, guided tours, and all necessary arrangements for a spiritual and memorable pilgrimage.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, transfer to Mecca. Check-in at hotel and rest."
+        },
+        {
+          "day": "Day 2-4",
+          "title": "Mecca - Umrah Performance",
+          "description": "Perform Umrah rituals, visit the Grand Mosque, and spend time in prayer and reflection."
+        },
+        {
+          "day": "Day 5",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 6-7",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, historical sites, and spend time in prayer."
+        },
+        {
+          "day": "Day 8",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Hotel accommodation near Haram (4-star)",
+        "All ground transportation",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Professional guide services",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities"
+      ],
+      "highlights": [
+        "Premium hotel accommodation near the Grand Mosque",
+        "Comfortable air travel arrangements",
+        "Expert guidance throughout the journey",
+        "Comprehensive travel support"
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "deluxe-umrah-package-by-air-10-days",
+      "batch": "10 Days / 11 Nights",
+      "img": "/assets/img/home1/package-card-img2.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Deluxe Umrah Package by Air - 10 Days",
+      "price": "1,599",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh"
+      ],
+      "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a deluxe Umrah journey with our 10-day package by air. This extended package offers more time for spiritual reflection, premium accommodations, and visits to multiple holy cities including Jeddah and Riyadh.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, transfer to Mecca. Check-in at deluxe hotel near the Haram and rest after the journey."
+        },
+        {
+          "day": "Day 2-5",
+          "title": "Mecca - Umrah Performance",
+          "description": "Perform Umrah rituals, spend extended time at the Grand Mosque, perform multiple Tawaf and Sai, and engage in prayers and spiritual reflection."
+        },
+        {
+          "day": "Day 6",
+          "title": "Visit Jeddah",
+          "description": "Day trip to Jeddah to explore the historic city, visit the Corniche, and experience the local culture before returning to Mecca."
+        },
+        {
+          "day": "Day 7",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at deluxe hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 8-9",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, historical sites including Quba Mosque, and spend time in prayer and reflection."
+        },
+        {
+          "day": "Day 10",
+          "title": "Visit Riyadh",
+          "description": "Optional day trip to Riyadh to explore the capital city and its landmarks."
+        },
+        {
+          "day": "Day 11",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Deluxe hotel accommodation near Haram (4-star)",
+        "All ground transportation including city tours",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Professional guide services",
+        "Travel insurance",
+        "City tours to Jeddah and Riyadh"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses"
+      ],
+      "highlights": [
+        "Extended 10-day spiritual journey",
+        "Deluxe hotel accommodation near the Grand Mosque",
+        "Visits to multiple holy cities",
+        "Comfortable air travel arrangements",
+        "Expert guidance throughout the journey",
+        "Comprehensive travel support"
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "luxury-umrah-package-by-air-14-days",
+      "batch": "14 Days / 15 Nights",
+      "img": "/assets/img/home1/package-card-img3.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Luxury Umrah Package by Air - 14 Days",
+      "price": "2,199",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh",
+        "Taif"
+      ],
+      "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Indulge in a luxurious 14-day Umrah experience with our premium package by air. This comprehensive journey includes 5-star accommodations, visits to all major holy cities, and exclusive experiences for the ultimate spiritual pilgrimage.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, VIP transfer to Mecca. Check-in at luxury 5-star hotel with direct view of the Haram."
+        },
+        {
+          "day": "Day 2-6",
+          "title": "Mecca - Extended Umrah Experience",
+          "description": "Perform Umrah rituals, spend extensive time at the Grand Mosque, perform multiple Tawaf and Sai, visit historical sites, and engage in deep spiritual reflection and prayers."
+        },
+        {
+          "day": "Day 7",
+          "title": "Visit Taif",
+          "description": "Day trip to Taif, the mountain resort city, to enjoy the cooler climate and visit historical sites including the Shubra Palace."
+        },
+        {
+          "day": "Day 8",
+          "title": "Visit Jeddah",
+          "description": "Explore Jeddah's historic Al-Balad district, visit the Corniche, and experience the Red Sea coastline."
+        },
+        {
+          "day": "Day 9",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, VIP transfer to luxury hotel near the Prophet's Mosque with premium amenities."
+        },
+        {
+          "day": "Day 10-12",
+          "title": "Medina Extended Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend extended time in prayer and reflection."
+        },
+        {
+          "day": "Day 13",
+          "title": "Visit Riyadh",
+          "description": "Day trip to Riyadh to explore the capital, visit the National Museum, and experience modern Saudi Arabia."
+        },
+        {
+          "day": "Day 14",
+          "title": "Return to Jeddah",
+          "description": "Return to Jeddah for final shopping and preparation for departure."
+        },
+        {
+          "day": "Day 15",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight with VIP assistance."
+        }
+      ],
+      "inclusions": [
+        "Return business class airfare",
+        "Luxury 5-star hotel accommodation near Haram",
+        "VIP airport transfers",
+        "All ground transportation including luxury vehicles",
+        "Visa processing assistance with priority service",
+        "All meals (breakfast, lunch, and dinner)",
+        "Professional multilingual guide services",
+        "Travel insurance with premium coverage",
+        "City tours to Taif, Jeddah, and Riyadh",
+        "Shopping assistance"
+      ],
+      "exclusions": [
+        "Personal expenses and shopping",
+        "Additional services not mentioned",
+        "Tips and gratuities",
+        "Optional luxury experiences",
+        "International flights upgrade fees"
+      ],
+      "highlights": [
+        "Luxury 5-star accommodations with Haram views",
+        "Extended 14-day comprehensive journey",
+        "Visits to all major holy cities",
+        "Business class air travel",
+        "VIP treatment throughout",
+        "Professional multilingual guides",
+        "Exclusive cultural experiences"
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "economy-umrah-package-by-air-5-days",
+      "batch": "5 Days / 6 Nights",
+      "img": "/assets/img/home1/package-card-img4.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Economy Umrah Package by Air - 5 Days",
+      "price": "999",
+      "place_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "type": "air",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "An affordable and efficient 5-day Umrah package by air, perfect for those with limited time. This budget-friendly option includes all essential services for a complete Umrah experience.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, transfer to Mecca. Check-in at hotel and brief orientation."
+        },
+        {
+          "day": "Day 2-3",
+          "title": "Mecca - Umrah Performance",
+          "description": "Perform Umrah rituals, visit the Grand Mosque, complete Tawaf and Sai, and spend time in prayer at the holy sites."
+        },
+        {
+          "day": "Day 4",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 5",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, offer prayers, and visit key historical sites."
+        },
+        {
+          "day": "Day 6",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Hotel accommodation near Haram (3-star)",
+        "All ground transportation",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Basic guide services",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses"
+      ],
+      "highlights": [
+        "Affordable pricing for budget-conscious travelers",
+        "Efficient 5-day itinerary",
+        "All essential Umrah services included",
+        "Comfortable air travel",
+        "Basic accommodation near holy sites",
+        "Complete Umrah experience"
+      ]
+    }
+  ],
+  "umrahByBus": [
+    {
+      "id": "1",
+      "slug": "standard-umrah-package-by-bus-10-days",
+      "batch": "10 Days / 11 Nights",
+      "img": "/assets/img/home1/package-card-img1.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Standard Umrah Package by Bus - 10 Days",
+      "price": "799",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah"
+      ],
+      "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a comfortable and affordable 10-day Umrah journey by bus. This standard package offers excellent value with comfortable bus travel, quality accommodations, and all essential services for a complete pilgrimage experience.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Departure by Bus",
+          "description": "Begin the journey by comfortable air-conditioned bus. Travel with fellow pilgrims in a group setting with rest stops along the way."
+        },
+        {
+          "day": "Day 2",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive in Jeddah, brief rest stop, then continue to Mecca. Check-in at hotel near the Haram."
+        },
+        {
+          "day": "Day 3-6",
+          "title": "Mecca - Umrah Performance",
+          "description": "Perform Umrah rituals, visit the Grand Mosque multiple times, complete Tawaf and Sai, and spend extended time in prayer and spiritual reflection."
+        },
+        {
+          "day": "Day 7",
+          "title": "Visit Jeddah",
+          "description": "Day trip to Jeddah to explore the historic city, visit the Corniche, and experience local culture."
+        },
+        {
+          "day": "Day 8",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by bus, check-in at hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 9-10",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, historical sites including Quba Mosque, and spend time in prayer and reflection."
+        },
+        {
+          "day": "Day 11",
+          "title": "Return Journey",
+          "description": "Begin return journey by bus with comfortable rest stops along the way."
+        }
+      ],
+      "inclusions": [
+        "Comfortable air-conditioned bus transportation",
+        "Hotel accommodation near Haram (3-star)",
+        "All ground transportation",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Professional guide services",
+        "Group travel experience",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses"
+      ],
+      "highlights": [
+        "Affordable bus travel option",
+        "Extended 10-day journey",
+        "Comfortable group travel experience",
+        "Quality hotel accommodation",
+        "Visits to multiple holy cities",
+        "Expert guidance throughout",
+        "Complete Umrah experience"
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "comfort-umrah-package-by-bus-14-days",
+      "batch": "14 Days / 15 Nights",
+      "img": "/assets/img/home1/package-card-img2.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Comfort Umrah Package by Bus - 14 Days",
+      "price": "999",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh"
+      ],
+      "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Enjoy a comfortable and extended 14-day Umrah journey by bus. This comprehensive package offers more time for spiritual reflection, comfortable bus travel with premium amenities, and visits to multiple holy cities.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Departure by Premium Bus",
+          "description": "Begin the journey by comfortable premium air-conditioned bus with reclining seats and entertainment. Travel with fellow pilgrims in a group setting."
+        },
+        {
+          "day": "Day 2",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive in Jeddah, rest stop with refreshments, then continue to Mecca. Check-in at comfortable hotel near the Haram."
+        },
+        {
+          "day": "Day 3-7",
+          "title": "Mecca - Extended Umrah Experience",
+          "description": "Perform Umrah rituals, spend extended time at the Grand Mosque, perform multiple Tawaf and Sai, visit historical sites, and engage in deep spiritual reflection."
+        },
+        {
+          "day": "Day 8",
+          "title": "Visit Jeddah",
+          "description": "Day trip to Jeddah to explore the historic Al-Balad district, visit the Corniche, and experience the Red Sea coastline."
+        },
+        {
+          "day": "Day 9",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by comfortable bus, check-in at hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 10-12",
+          "title": "Medina Extended Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend extended time in prayer and reflection."
+        },
+        {
+          "day": "Day 13",
+          "title": "Visit Riyadh",
+          "description": "Day trip to Riyadh to explore the capital city, visit landmarks, and experience modern Saudi Arabia."
+        },
+        {
+          "day": "Day 14",
+          "title": "Return Journey Preparation",
+          "description": "Final prayers and preparation for return journey."
+        },
+        {
+          "day": "Day 15",
+          "title": "Return Journey",
+          "description": "Begin comfortable return journey by bus with rest stops and refreshments."
+        }
+      ],
+      "inclusions": [
+        "Premium air-conditioned bus transportation",
+        "Comfortable hotel accommodation near Haram (4-star)",
+        "All ground transportation including city tours",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Professional guide services",
+        "Group travel experience",
+        "Travel insurance",
+        "City tours to Jeddah and Riyadh"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses"
+      ],
+      "highlights": [
+        "Extended 14-day comprehensive journey",
+        "Premium bus travel with comfort amenities",
+        "Comfortable 4-star hotel accommodation",
+        "Visits to multiple holy cities",
+        "Extended time for spiritual reflection",
+        "Expert guidance throughout",
+        "Complete cultural and spiritual experience"
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "budget-umrah-package-by-bus-7-days",
+      "batch": "7 Days / 8 Nights",
+      "img": "/assets/img/home1/package-card-img3.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Budget Umrah Package by Bus - 7 Days",
+      "price": "599",
+      "place_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "An economical 7-day Umrah package by bus, perfect for budget-conscious travelers. This affordable option includes all essential services for a complete and meaningful Umrah experience.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Departure by Bus",
+          "description": "Begin the journey by air-conditioned bus. Travel with fellow pilgrims in a group setting with scheduled rest stops."
+        },
+        {
+          "day": "Day 2",
+          "title": "Arrival in Mecca",
+          "description": "Arrive in Mecca, check-in at budget hotel near the Haram. Brief orientation and preparation for Umrah."
+        },
+        {
+          "day": "Day 3-4",
+          "title": "Mecca - Umrah Performance",
+          "description": "Perform Umrah rituals, visit the Grand Mosque, complete Tawaf and Sai, and spend time in prayer at the holy sites."
+        },
+        {
+          "day": "Day 5",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by bus, check-in at budget hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 6",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, offer prayers, and visit key historical sites including Quba Mosque."
+        },
+        {
+          "day": "Day 7",
+          "title": "Return Journey",
+          "description": "Begin return journey by bus with rest stops along the way."
+        },
+        {
+          "day": "Day 8",
+          "title": "Arrival Home",
+          "description": "Complete the return journey and arrive at the starting point."
+        }
+      ],
+      "inclusions": [
+        "Air-conditioned bus transportation",
+        "Budget hotel accommodation near Haram (2-star)",
+        "All ground transportation",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Basic guide services",
+        "Group travel experience",
+        "Travel insurance"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses"
+      ],
+      "highlights": [
+        "Most affordable Umrah package",
+        "Complete 7-day Umrah experience",
+        "All essential services included",
+        "Comfortable bus travel",
+        "Budget-friendly accommodation",
+        "Group travel experience",
+        "Value for money"
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "premium-umrah-package-by-bus-12-days",
+      "batch": "12 Days / 13 Nights",
+      "img": "/assets/img/home1/package-card-img4.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Premium Umrah Package by Bus - 12 Days",
+      "price": "1,199",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh",
+        "Taif"
+      ],
+      "type": "bus",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a premium 12-day Umrah journey by bus with luxury amenities. This comprehensive package includes premium bus travel, quality accommodations, and visits to all major holy cities for an unforgettable pilgrimage experience.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Departure by Luxury Bus",
+          "description": "Begin the journey by premium luxury bus with reclining seats, entertainment system, and refreshments. Travel in comfort with fellow pilgrims."
+        },
+        {
+          "day": "Day 2",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive in Jeddah, premium rest stop with meals, then continue to Mecca. Check-in at premium hotel near the Haram."
+        },
+        {
+          "day": "Day 3-6",
+          "title": "Mecca - Extended Umrah Experience",
+          "description": "Perform Umrah rituals, spend extended time at the Grand Mosque, perform multiple Tawaf and Sai, visit historical sites, and engage in deep spiritual reflection."
+        },
+        {
+          "day": "Day 7",
+          "title": "Visit Taif",
+          "description": "Day trip to Taif, the mountain resort city, to enjoy the cooler climate and visit historical sites including the Shubra Palace."
+        },
+        {
+          "day": "Day 8",
+          "title": "Visit Jeddah",
+          "description": "Explore Jeddah's historic Al-Balad district, visit the Corniche, and experience the Red Sea coastline."
+        },
+        {
+          "day": "Day 9",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by premium bus, check-in at premium hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 10-11",
+          "title": "Medina Extended Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend extended time in prayer and reflection."
+        },
+        {
+          "day": "Day 12",
+          "title": "Visit Riyadh",
+          "description": "Day trip to Riyadh to explore the capital, visit the National Museum, and experience modern Saudi Arabia."
+        },
+        {
+          "day": "Day 13",
+          "title": "Return Journey",
+          "description": "Begin comfortable return journey by premium bus with rest stops and refreshments."
+        }
+      ],
+      "inclusions": [
+        "Premium luxury bus transportation with amenities",
+        "Premium hotel accommodation near Haram (4-star)",
+        "All ground transportation including luxury vehicles",
+        "Visa processing assistance",
+        "All meals (breakfast, lunch, and dinner)",
+        "Professional guide services",
+        "Group travel experience",
+        "Travel insurance",
+        "City tours to Taif, Jeddah, and Riyadh",
+        "Shopping assistance"
+      ],
+      "exclusions": [
+        "Personal expenses and shopping",
+        "Additional services not mentioned",
+        "Tips and gratuities",
+        "Optional luxury experiences",
+        "International flights"
+      ],
+      "highlights": [
+        "Premium luxury bus travel with comfort amenities",
+        "Extended 12-day comprehensive journey",
+        "Premium hotel accommodation",
+        "Visits to all major holy cities",
+        "Extended time for spiritual reflection",
+        "Professional expert guides",
+        "Complete cultural and spiritual experience"
+      ]
+    }
+  ]
+}
+

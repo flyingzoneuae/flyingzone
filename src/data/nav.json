@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "label": "Home",
+        "link": "/",
+        "icon": false
+    },
+    {
+        "id": "2",
+        "label": "About Us",
+        "link": "/about",
+        "icon": false
+    },
+    {
+        "id": "3",
+        "label": "Hajj & Umrah",
+        "link": "/hajj-umrah",
+        "icon": false
+    },
+    {
+        "id": "7",
+        "label": "Flight Tickets",
+        "link": "/flight-tickets",
+        "icon": false
+    },
+    {
+        "id": "4",
+        "label": "Visa",
+        "link": "/",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "1",
+                "label": "Global Visa",
+                "link": "/visas/global",
+                "icon": false
+            },
+            {
+                "id": "2",
+                "label": "UAE Visa",
+                "link": "/visas/uae",
+                "icon": false
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "label": "Other Services",
+        "link": "/",
+        "icon": true,
+        "subMenu": [
+            {
+                "id": "2",
+                "label": "Tour Packages",
+                "link": "/tour-packages",
+                "icon": false
+            },
+            {
+                "id": "2",
+                "label": "Holidays by fly Dubai",
+                "link": "/holidays-by-fly-dubai",
+                "icon": false
+            },
+            {
+                "id": "3",
+                "label": "Travel Insurance",
+                "link": "/travel-insurance",
+                "icon": false
+            },
+            {
+                "id": "4",
+                "label": "Hotel Reservations",
+                "link": "/hotel-reservations",
+                "icon": false
+            },
+            {
+                "id": "5",
+                "label": "Dubai Local Excursions",
+                "link": "/dubai-excursions",
+                "icon": false
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "label": "Contact Us",
+        "link": "/contact",
+        "icon": false
+    }
+]

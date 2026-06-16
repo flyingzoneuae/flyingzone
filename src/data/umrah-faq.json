@@ -1,0 +1,87 @@
+{
+  "umrahByAir": [
+    {
+      "id": "air-1",
+      "question": "01. What are the advantages of choosing Umrah by Air?",
+      "answer": "Umrah by Air offers faster travel times, more comfortable journey, direct flights to Saudi Arabia, and typically includes premium accommodation options. It's ideal for those with limited time or who prefer air travel comfort."
+    },
+    {
+      "id": "air-2",
+      "question": "02. How long does the flight take for Umrah by Air packages?",
+      "answer": "Flight duration depends on your departure location, but typically ranges from 4-8 hours for direct flights. We provide comfortable flights with meal services and entertainment to make your journey pleasant."
+    },
+    {
+      "id": "air-3",
+      "question": "03. What type of accommodation is included in Umrah by Air packages?",
+      "answer": "Our Umrah by Air packages include quality hotel accommodations near the Haram in Mecca and Medina. Accommodation options range from 3-star to 5-star hotels, depending on the package you choose."
+    },
+    {
+      "id": "air-4",
+      "question": "04. Are meals included in the Umrah by Air package?",
+      "answer": "Yes, most of our Umrah by Air packages include breakfast, and some premium packages include all meals (breakfast, lunch, and dinner). Specific meal inclusions are detailed in each package description."
+    },
+    {
+      "id": "air-5",
+      "question": "05. Can I extend my stay in Saudi Arabia with an Umrah by Air package?",
+      "answer": "Yes, you can extend your stay, but this needs to be arranged in advance. Additional charges will apply for extended accommodation and return flight changes. Please contact us for extension options."
+    },
+    {
+      "id": "air-6",
+      "question": "06. What is the baggage allowance for Umrah by Air packages?",
+      "answer": "Baggage allowance varies by airline and package type. Typically, economy packages include 20-30kg checked baggage, while premium packages may include up to 40kg. Hand luggage is usually 7kg. Specific details are provided in your booking confirmation."
+    },
+    {
+      "id": "air-7",
+      "question": "07. Is travel insurance included in Umrah by Air packages?",
+      "answer": "Travel insurance is highly recommended and may be included in some premium packages. We can assist you in obtaining comprehensive travel insurance that covers medical emergencies, trip cancellation, and baggage loss."
+    },
+    {
+      "id": "air-8",
+      "question": "08. What documents do I need for Umrah by Air travel?",
+      "answer": "You'll need a valid passport (minimum 6 months validity), Umrah visa, proof of vaccination (as required by Saudi authorities), travel insurance, and return flight tickets. We assist with visa processing as part of our service."
+    }
+  ],
+  "umrahByBus": [
+    {
+      "id": "bus-1",
+      "question": "01. What are the advantages of choosing Umrah by Bus?",
+      "answer": "Umrah by Bus is more economical, allows you to travel with a group, provides scenic journey experiences, and is ideal for those who prefer ground transportation. It's perfect for budget-conscious pilgrims who want to save on travel costs."
+    },
+    {
+      "id": "bus-2",
+      "question": "02. How long does the bus journey take for Umrah by Bus packages?",
+      "answer": "Bus journey duration depends on your departure location, typically ranging from 12-24 hours with rest stops. Our buses are comfortable, air-conditioned, and include regular rest breaks for prayers and meals."
+    },
+    {
+      "id": "bus-3",
+      "question": "03. What facilities are available on the bus during the journey?",
+      "answer": "Our buses are equipped with air conditioning, comfortable reclining seats, entertainment systems, restroom facilities, and storage space for luggage. We also provide regular rest stops for prayers, meals, and refreshments."
+    },
+    {
+      "id": "bus-4",
+      "question": "04. What type of accommodation is included in Umrah by Bus packages?",
+      "answer": "Umrah by Bus packages include comfortable hotel accommodations near the Haram. While these are typically more budget-friendly options compared to air packages, they still provide clean, safe, and convenient lodging for your stay."
+    },
+    {
+      "id": "bus-5",
+      "question": "05. Are meals included during the bus journey?",
+      "answer": "Yes, meals are typically included during rest stops on the bus journey. Accommodation meals (usually breakfast) are also included. Some packages may include all meals - please check the specific package details."
+    },
+    {
+      "id": "bus-6",
+      "question": "06. Can I bring extra luggage on the bus?",
+      "answer": "Yes, bus travel generally allows more flexibility with luggage compared to air travel. However, there are still space limitations. Typically, you can bring 1-2 large suitcases plus hand luggage. Specific allowances are mentioned in your package details."
+    },
+    {
+      "id": "bus-7",
+      "question": "07. Is the bus journey safe and comfortable?",
+      "answer": "Absolutely! Our buses are modern, well-maintained, and driven by experienced drivers. We follow all safety regulations, provide regular rest breaks, and ensure comfortable seating. Safety and comfort are our top priorities."
+    },
+    {
+      "id": "bus-8",
+      "question": "08. What should I pack for an Umrah by Bus journey?",
+      "answer": "Pack comfortable clothing for the journey, Ihram garments, comfortable walking shoes, personal hygiene items, prayer mat, snacks for the journey, important documents, and any necessary medications. Since you'll be on the bus longer, bring items to keep you comfortable during travel."
+    }
+  ]
+}
+

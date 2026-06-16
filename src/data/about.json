@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "title": "Flying-Zone - Tour & Travel Agency  NextJs Template",
+    "description": "Flying-Zone is a NextJs Template for Tour and Travel Agency purpose",
+    "icon": "/assets/img/sm-logo.svg"
+  },
+  "breadcrumb": {
+    "pagename": "About Us",
+    "pagetitle": "About Us",
+    "bgImage": "/assets/images/banners/about.png"
+  },
+  "overview": {
+    "intro": {
+      "tag": "About Us",
+      "title": "We Provide Unforgettable Travel Experiences",
+      "body": "At Flying Zone UAE, we are dedicated to making every journey seamless, memorable, and worry-free. Backed by 19+ years of industry experience and a strong presence in the UAE since 2023, we combine global knowledge with local expertise to craft travel solutions that truly matter."
+    },
+    "facilities": [
+      {
+        "iconKey": "1",
+        "cardVariant": "default",
+        "titleLines": ["Safety First,", "Always"]
+      },
+      {
+        "iconKey": "2",
+        "cardVariant": "two",
+        "titleLines": ["Trusted Travel", "Guide"]
+      },
+      {
+        "iconKey": "3",
+        "cardVariant": "two",
+        "titleLines": ["Expertise and", "Experience"]
+      },
+      {
+        "iconKey": "3",
+        "cardVariant": "default",
+        "titleLines": ["Personalized", "Service"]
+      }
+    ],
+    "hero": {
+      "imageSrc": "/assets/images/about/hero/travel-experiences.png",
+      "imageAlt": "We Provide Unforgettable Travel Experiences"
+    },
+    "experience": {
+      "value": "19+",
+      "label": "Years of experience"
+    },
+    "stats": [
+      {
+        "iconKey": "travelers",
+        "countUp": { "delay": 2, "end": 60 },
+        "suffix": "K+",
+        "label": "Happy Traveler",
+        "colClass": "col-lg-3 col-sm-6 divider d-flex justify-content-lg-start justify-content-sm-center"
+      },
+      {
+        "iconKey": "toursSuccess",
+        "countUp": { "delay": 2, "end": 60 },
+        "suffix": "K+",
+        "label": "Tours Success",
+        "colClass": "col-lg-3 col-sm-6 divider d-flex justify-content-sm-center"
+      },
+      {
+        "iconKey": "positiveReviews",
+        "countUp": { "delay": 2, "end": 60 },
+        "suffix": "%",
+        "label": "Positives Review",
+        "colClass": "col-lg-3 col-sm-6 divider d-flex justify-content-sm-center"
+      },
+      {
+        "iconKey": "travelGuide",
+        "countUp": { "delay": 2, "end": 60 },
+        "suffix": "+",
+        "label": "Travel Guide",
+        "colClass": "col-lg-3 col-sm-6 d-flex justify-content-lg-end justify-content-sm-center"
+      }
+    ],
+    "tripadvisor": {
+      "headline": "Excellent!",
+      "rating": "5.0",
+      "reviewUrl": "https://www.tripadvisor.com/",
+      "reviewCount": "245354",
+      "reviewsWord": "reviews",
+      "ratingStars": { "width": 86, "height": 13 },
+      "logoMark": { "width": 114, "height": 24 }
+    },
+    "modalVideo": {
+      "channel": "youtube",
+      "videoId": "r4KpWiK08vM",
+      "ratio": "16:9",
+      "animationSpeed": 350
+    },
+    "planeVector": {
+      "width": 409,
+      "height": 203,
+      "className": "vector"
+    }
+  },
+  "homeAbout": {
+    "subtitle": "Who We Are",
+    "title": "Your Trusted Travel Companion",
+    "description": "At Flying Zone, we simplify your global travel dreams with expert care. Established in 2007, our legacy of excellence now extends across the UAE and Pakistan. From sacred pilgrimages to luxury holidays, we provide seamless solutions tailored to your needs. Experience world-class hospitality, competitive pricing, and a commitment to making every journey unforgettable and stress-free.",
+    "facilities": [
+      {
+        "id": 1,
+        "title": "Safety First Always",
+        "description": "We prioritize your security with verified bookings and 24/7 support for all international travels.",
+        "isSecondary": false
+      },
+      {
+        "id": 2,
+        "title": "Trusted Travel Guide",
+        "description": "Our 17+ years of industry expertise ensures you receive the most reliable advice and visa assistance.",
+        "isSecondary": true
+      },
+      {
+        "id": 3,
+        "title": "Time and Stress Savings",
+        "description": "Let our experts handle the paperwork while you enjoy a smooth, hassle-free booking experience.",
+        "isSecondary": false
+      }
+    ],
+    "counter": {
+      "number": 60,
+      "unit": "K+",
+      "label": "Tours \n Success"
+    },
+    "badgeText": "FLYING.ZONE.EST-2007.FLYING.ZONE.EST-2007.",
+    "modalVideo": {
+      "channel": "youtube",
+      "videoId": "r4KpWiK08vM",
+      "ratio": "16:9",
+      "animationSpeed": 350
+    },
+    "videoCover": {
+      "src": "/assets/images/home/about/video-cover.png",
+      "alt": "Flying Zone tour preview"
+    },
+    "mainImage": {
+      "src": "/assets/images/home/about/main.png",
+      "alt": "Your trusted travel companion at Flying Zone"
+    },
+    "watchTourLabel": "Watch Tour"
+  },
+  "whyChoose": {
+    "section": {
+      "tag": "Who We Are",
+      "title": "Why Choose Flying Zone"
+    },
+    "features": [
+      {
+        "iconKey": "worldwide",
+        "variant": "default",
+        "colClass": "col-xl-4 col-md-6",
+        "title": "Worldwide Coverage",
+        "description": "Travel confidently with our global network and trusted partnerships. We offer seamless travel solutions across multiple destinations, ensuring reliability and convenience wherever you go."
+      },
+      {
+        "iconKey": "pricing",
+        "variant": "secondary",
+        "colClass": "col-xl-4 col-md-6 pt-15",
+        "title": "Competitive Pricing",
+        "description": "Get the best value for your money with carefully designed packages. We combine affordability with quality services, so you never have to compromise on your travel experience."
+      },
+      {
+        "iconKey": "fastBooking",
+        "variant": "default",
+        "colClass": "col-xl-4 col-md-6",
+        "title": "Fast Booking",
+        "description": "Enjoy quick and hassle-free booking with our efficient system. From flights to visas and tours, everything is processed smoothly to save you time and effort."
+      },
+      {
+        "iconKey": "guidedTours",
+        "variant": "secondary",
+        "colClass": "col-xl-4 col-md-6",
+        "title": "Guided Tours",
+        "description": "Experience destinations like never before with our expert-guided tours. Our team ensures you explore every place with comfort, insight, and complete peace of mind."
+      },
+      {
+        "iconKey": "support",
+        "variant": "default",
+        "colClass": "col-xl-4 col-md-6 pt-15",
+        "title": "Best Support 24/7",
+        "description": "Our dedicated support team is always available to assist you. From planning to your return, we are here to make your journey stress-free and well-managed."
+      },
+      {
+        "iconKey": "experiencedTeam",
+        "variant": "secondary",
+        "colClass": "col-xl-4 col-md-6",
+        "title": "Experienced",
+        "description": "With over 18 years of expertise and multiple locations across UAE and Pakistan, we bring knowledge, trust, and professionalism to every journey we plan."
+      }
+    ]
+  },
+  "activities": {
+    "slideOverlayGradient": "linear-gradient(180deg, rgba(16, 12, 8, 0.4) 0%, rgba(16, 12, 8, 0.4) 100%)",
+    "swiper": {
+      "speed": 1500,
+      "spaceBetween": 25,
+      "autoplayDelay": 2500
+    },
+    "sectionTitle": {
+      "tag": "Our Special Services",
+      "title": "Our Special Services"
+    },
+    "tabs": [
+      {
+        "paneId": "outdoor",
+        "iconKey": "hajjUmrah",
+        "label": "Hajj & Umrah",
+        "active": true,
+        "slideImage": "/assets/images/about/services/hajj-umrah.png",
+        "content": {
+          "heading": "Hajj & Umrah Services",
+          "body": "Step into a spiritual journey designed with comfort, devotion, and complete peace of mind. From visa arrangements to accommodation and transport, we ensure your Hajj & Umrah experience is smooth, memorable, and meaningful.",
+          "highlights": [
+            "Seamless Arrangements",
+            "Guided Spiritual Support",
+            "Comfortable Travel",
+            "Complete Peace of Mind"
+          ]
+        }
+      },
+      {
+        "paneId": "cultural",
+        "iconKey": "flightTickets",
+        "label": "Flight Tickets",
+        "active": false,
+        "slideImage": "/assets/images/about/services/flight-tickets.png",
+        "content": {
+          "heading": "Flight Ticket Services",
+          "body": "Book your flights with confidence through our GSA & PSA partnerships with multiple airlines. Enjoy flexible options, competitive fares, and stress-free ticketing for domestic and international travel.",
+          "highlights": [
+            "Professional Guidance",
+            "Secure Bookings",
+            "Competitive Fares",
+            "Convenient Options"
+          ]
+        }
+      },
+      {
+        "paneId": "cuisine",
+        "iconKey": "visitVisa",
+        "label": "Visit Visa",
+        "active": false,
+        "slideImage": "/assets/images/about/services/visit-visa.png",
+        "content": {
+          "heading": "Visit Visa Services",
+          "body": "Travel made easy with our UAE and global visit visa services, offering fast processing, reliable support, and guidance for business, leisure, or family visits.",
+          "highlights": [
+            "Expert Assistance",
+            "Reliable Processing",
+            "Clear Guidelines",
+            "Stress-Free Experience"
+          ]
+        }
+      },
+      {
+        "paneId": "wildlife",
+        "iconKey": "tourPackages",
+        "label": "Tour Packages",
+        "active": false,
+        "slideImage": "/assets/images/about/services/tour-packages.png",
+        "content": {
+          "heading": "Tour Packages",
+          "body": "Explore the world your way with our curated group, solo, and holidays via flydubai packages. Experience unique destinations, memorable activities, and fully organized itineraries.",
+          "highlights": [
+            "Customized Itineraries",
+            "Scenic Experiences",
+            "Safety & Comfort",
+            "Adventure & Relaxation"
+          ]
+        }
+      },
+      {
+        "paneId": "event",
+        "iconKey": "localExcursions",
+        "label": "Local Excursions",
+        "active": false,
+        "slideImage": "/assets/images/about/services/local-excursions.png",
+        "content": {
+          "heading": "Dubai Local Excursions",
+          "body": "Discover the best of Dubai with our excursions, including desert safaris, cruise dinners, Arabian Nights, museums, theme parks, and other attractions. Every trip is designed to create unforgettable memories.",
+          "highlights": [
+            "Curated Experiences",
+            "Hassle-Free Arrangements",
+            "Iconic Destinations",
+            "Family & Group Friendly"
+          ]
+        }
+      }
+    ]
+  },
+  "team": {
+    "section": {
+      "tag": "Our Team",
+      "title": "Meet Our Team"
+    },
+    "cardBackground": "/assets/images/about/team/card-background.png",
+    "nav": {
+      "prevLabel": "PREV",
+      "nextLabel": "NEXT"
+    },
+    "members": [
+      {
+        "photo": "/assets/images/about/team/muhammad-naveed-naz.png",
+        "photoAlt": "Muhammad Naveed Naz",
+        "name": "Muhammad Naveed Naz",
+        "role": "Group Chairman",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/muhammad-ahmed.png",
+        "photoAlt": "Muhammad Ahmed",
+        "name": "Muhammad Ahmed",
+        "role": "Chief Executive Officer (CEO)",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/muhammad-yaseen.png",
+        "photoAlt": "Muhammad Yaseen",
+        "name": "Muhammad Yaseen",
+        "role": "Managing Director",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/wasim-sajjad.png",
+        "photoAlt": "Wasim Sajjad",
+        "name": "Wasim Sajjad",
+        "role": "Managing Director",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/malik-asad.png",
+        "photoAlt": "Malik Asad",
+        "name": "Malik Asad",
+        "role": "Sales Officer",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/asad.png",
+        "photoAlt": "Asad",
+        "name": "Asad",
+        "role": "Umrah Operations Officer",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      },
+      {
+        "photo": "/assets/images/about/team/rimsha-naeem.png",
+        "photoAlt": "Rimsha Naeem",
+        "name": "Rimsha Naeem",
+        "role": "Customer Service Executive",
+        "social": [
+          { "network": "instagram", "url": "https://www.instagram.com/" },
+          { "network": "pinterest", "url": "https://www.pinterest.com/" },
+          { "network": "twitter", "url": "https://twitter.com/" },
+          { "network": "facebook", "url": "https://www.facebook.com/" }
+        ]
+      }
+    ]
+  }
+}

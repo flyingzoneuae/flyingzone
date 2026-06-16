@@ -1,0 +1,270 @@
+{
+  "section": {
+    "vectorImage": "/assets/img/home1/section-vector2.png",
+    "subtitle": "Visa Services",
+    "title": "Visa Processing"
+  },
+  "visas": [
+    {
+      "id": 1,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Oman",
+      "link": "/visas/oman",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "Qatar",
+      "link": "/visas/qatar",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "Bahrain",
+      "link": "/visas/bahrain",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "Kuwait",
+      "link": "/visas/kuwait",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Sri Lanka",
+      "link": "/visas/sri-lanka",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 6,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Malaysia",
+      "link": "/visas/malaysia",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 7,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "Singapore",
+      "link": "/visas/singapore",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 8,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "Vietnam",
+      "link": "/visas/vietnam",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 9,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "Morocco",
+      "link": "/visas/morocco",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 10,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Azerbaijan",
+      "link": "/visas/azerbaijan",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 11,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Uzbekistan",
+      "link": "/visas/uzbekistan",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 12,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "Japan",
+      "link": "/visas/japan",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 13,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "Cambodia",
+      "link": "/visas/cambodia",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 14,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "Indonesia",
+      "link": "/visas/indonesia",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 15,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Albania",
+      "link": "/visas/albania",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 16,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Kenya",
+      "link": "/visas/kenya",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 17,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "Ethiopia",
+      "link": "/visas/ethiopia",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 18,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "Uganda",
+      "link": "/visas/uganda",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 19,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "Jordan",
+      "link": "/visas/jordan",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 20,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Tanzania",
+      "link": "/visas/tanzania",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 21,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Madagascar",
+      "link": "/visas/madagascar",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 22,
+      "image": "/assets/img/home1/package-card2-img2.png",
+      "country": "Turkey",
+      "link": "/visas/turkey",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 23,
+      "image": "/assets/img/home1/package-card2-img3.png",
+      "country": "Thailand",
+      "link": "/visas/thailand",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 24,
+      "image": "/assets/img/home1/package-card2-img4.png",
+      "country": "India",
+      "link": "/visas/india",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": "style-2"
+    },
+    {
+      "id": 25,
+      "image": "/assets/img/home1/package-card2-img5.png",
+      "country": "Pakistan",
+      "link": "/visas/pakistan",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    },
+    {
+      "id": 26,
+      "image": "/assets/img/home1/package-card2-img1.png",
+      "country": "Armenia",
+      "link": "/visas/armenia",
+      "title": "E-Visa - Only Processing",
+      "price": "$0",
+      "priceLabel": "TAXES INCL/PERS",
+      "style": ""
+    }
+  ]
+}
+

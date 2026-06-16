@@ -1,0 +1,397 @@
+{
+  "hajj": [
+    {
+      "id": 1,
+      "slug": "economy-hajj-package",
+      "title": "Economy Hajj Package",
+      "duration": "21 Days",
+      "locations": [
+        "Makkah",
+        "Madinah"
+      ],
+      "img": "/assets/img/home1/package-card-img1.png",
+      "gallery": [
+        "/assets/img/home1/package-card-img1.png",
+        "/assets/img/home1/package-card-img1.png",
+        "/assets/img/home1/package-card-img1.png",
+        "/assets/img/home1/package-card-img1.png"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=EconomyHajj",
+      "startingPrice": "4,500",
+      "detailsLink": "/hajj-umrah/economy-hajj-package",
+      "description": "Our Economy Hajj Package is designed for pilgrims seeking a spiritual journey with essential comforts at an affordable price. Experience the blessed pilgrimage with reliable services and guidance.",
+      "itinerary": [
+        {
+          "day": "Day 1-5",
+          "title": "Madinah Arrival",
+          "description": "Arrival in Madinah, check-in at hotel, and 5 days stay for Ziarat and prayers at Masjid-an-Nabawi."
+        },
+        {
+          "day": "Day 6-12",
+          "title": "Makkah & Umrah",
+          "description": "Transfer to Makkah, perform Umrah, and stay near Haram for spiritual devotion."
+        },
+        {
+          "day": "Day 13-18",
+          "title": "Hajj Days (Mina/Arafat)",
+          "description": "Moving to Mina, Arafat, and Muzdalifah for the core Hajj rituals."
+        },
+        {
+          "day": "Day 19-21",
+          "title": "Departure",
+          "description": "Final Tawaf and departure from Jeddah airport."
+        }
+      ],
+      "inclusions": [
+        "Economy Class Return Flight",
+        "Standard Hotel in Makkah (1200m)",
+        "Standard Hotel in Madinah (800m)",
+        "Buffet Breakfast & Dinner",
+        "Hajj Visa & Insurance",
+        "Ziarat in Makkah and Madinah"
+      ],
+      "exclusions": [
+        "Personal Shopping",
+        "Qurbani (Animal Sacrifice)",
+        "Laundry Services",
+        "Wheelchair Services"
+      ],
+      "highlights": [
+        "Affordable spiritual journey",
+        "Experienced group leaders",
+        "Guided Ziarat tours",
+        "Dedicated support 24/7"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "standard-hajj-package",
+      "title": "Standard Hajj Package",
+      "duration": "25 Days",
+      "locations": [
+        "Makkah",
+        "Madinah",
+        "Mina"
+      ],
+      "img": "/assets/img/home1/package-card-img2.png",
+      "gallery": [
+        "/assets/img/home1/package-card-img2.png",
+        "/assets/img/home1/package-card-img2.png",
+        "/assets/img/home1/package-card-img2.png",
+        "/assets/img/home1/package-card-img2.png"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=StandardHajj",
+      "startingPrice": "5,800",
+      "detailsLink": "/hajj-umrah/standard-hajj-package",
+      "description": "The Standard Hajj Package offers a balanced experience with closer hotel locations and enhanced transportation services during the holy days of Hajj.",
+      "itinerary": [
+        {
+          "day": "Day 1-7",
+          "title": "Madinah Stay",
+          "description": "7 days in Madinah with guided spiritual sessions."
+        },
+        {
+          "day": "Day 8-20",
+          "title": "Makkah & Hajj",
+          "description": "Performance of Hajj rituals with standard tent facilities in Mina."
+        },
+        {
+          "day": "Day 21-25",
+          "title": "Final Days & Return",
+          "description": "Post-Hajj rest in Makkah and departure."
+        }
+      ],
+      "inclusions": [
+        "Standard Flight Package",
+        "3-Star Hotels in Makkah & Madinah",
+        "Full Board Meals (Breakfast, Lunch, Dinner)",
+        "Standard Mina Tents",
+        "Air-conditioned Bus Transport"
+      ],
+      "exclusions": [
+        "Extra Ziarat",
+        "Individual medical expenses",
+        "Qurbani"
+      ],
+      "highlights": [
+        "Balanced comfort and value",
+        "Close proximity to Haram",
+        "Full board meal plan",
+        "Comprehensive orientation"
+      ]
+    }
+  ],
+  "umrah": [
+    {
+      "id": 1,
+      "slug": "executive-umrah-bus-10-days",
+      "title": "Executive Umrah Package by Bus \u2013 10 Days",
+      "duration": "10 Days",
+      "locations": [
+        "Makkah",
+        "Madinah",
+        "Jeddah"
+      ],
+      "img": "/assets/images/umrah/umrah-by-bus-executive/5.png",
+      "gallery": [
+        "/assets/images/umrah/umrah-by-bus-executive/2.png",
+        "/assets/images/umrah/umrah-by-bus-executive/3.png",
+        "/assets/images/umrah/umrah-by-bus-executive/4.png",
+        "/assets/images/umrah/umrah-by-bus-executive/1.png"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=UmrahBus",
+      "startingPrice": "850",
+      "detailsLink": "/hajj-umrah/executive-umrah-bus-10-days",
+      "description": "Experience a spiritually fulfilling and budget-friendly Umrah journey with Flying Zone UAE. This 10-day group package is designed for pilgrims who seek comfort, guidance, and affordability \u2014 all in one complete experience. Travel in a well-organized group with professional support, comfortable transport, and carefully selected accommodations close to Haram.",
+      "itinerary": [
+        {
+          "day": "Day 01",
+          "title": "Departure from UAE",
+          "description": "Your blessed journey begins as you depart from the UAE. Travel comfortably in a luxury air-conditioned bus with fellow pilgrims."
+        },
+        {
+          "day": "Day 02",
+          "title": "Arrival at Meeqat & Umrah",
+          "description": "Arrival at Meeqat and intention for Umrah (Ihram). Proceed towards Makkah, perform Umrah under guidance, and hotel check-in near Haram. Mandatory Umrah briefing session by expert guide."
+        },
+        {
+          "day": "Day 03",
+          "title": "Jummah in Makkah",
+          "description": "Perform Jummah Prayer at Haram. Spend the day in Ibadah (worship), Tawaf, and personal prayers. Experience the peaceful spiritual environment of Makkah."
+        },
+        {
+          "day": "Day 04",
+          "title": "Free Day (Ibadah & Reflection)",
+          "description": "Free day dedicated to personal prayers. Optional Tawaf, Quran recitation, and prayers at Haram."
+        },
+        {
+          "day": "Day 05",
+          "title": "Makkah Ziarat (Included)",
+          "description": "Guided Ziarat tour of Makkah. Visit important Islamic historical sites and learn the significance of each location with expert guidance."
+        },
+        {
+          "day": "Day 06",
+          "title": "Free Day & Last Tawaf",
+          "description": "Free time for additional Ziarat or personal worship. Perform your Last Tawaf (Tawaf Al-Wida) in Makkah."
+        },
+        {
+          "day": "Day 07",
+          "title": "Travel to Madinah",
+          "description": "Departure from Makkah to Madinah. Arrival at Masjid an-Nabawi. Guided Ziarat of Madinah and hotel check-in."
+        },
+        {
+          "day": "Day 08",
+          "title": "Visit to Riaz ul Jannah",
+          "description": "Free day for Riaz ul Jannah visit (as per schedule/permit). Spend time in prayers at Masjid an-Nabawi."
+        },
+        {
+          "day": "Day 09",
+          "title": "Jummah & Return Journey",
+          "description": "Perform Jummah Prayer in Madinah. Begin your journey back to the UAE with unforgettable spiritual memories."
+        }
+      ],
+      "inclusions": [
+        "Saudi Visa",
+        "Luxury Air-Conditioned Bus Travel (with Washroom & WiFi)",
+        "06 Nights stay in Makkah (Comfortable Accommodation)",
+        "02 Nights stay in Madinah (Comfortable Accommodation)",
+        "Makkah\u2013Madinah Transportation",
+        "Ziarat Tours in Holy Cities",
+        "Professional Tour Guide & Muallam",
+        "Free Ihram Gift",
+        "Travel Insurance",
+        "Border Taxes Covered"
+      ],
+      "exclusions": [
+        "Meals",
+        "Personal Expenses",
+        "Additional Ziarat (not in itinerary)",
+        "Tips & Gratuities",
+        "Optional Tours & Activities",
+        "Shopping Expenses"
+      ],
+      "highlights": [
+        "Budget-friendly Umrah package from UAE",
+        "Pickup from Dubai, Sharjah, Abu Dhabi, Jebel Ali",
+        "Wednesday Departure with Luxury Bus Support",
+        "Religious guidance by dedicated Muallam",
+        "Well-planned 10-day spiritual journey",
+        "Free WiFi in KSA to stay connected"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "standard-umrah-air-08-days",
+      "title": "Standard Umrah Package by Air \u2013 08 Days",
+      "duration": "08 Days",
+      "locations": [
+        "Makkah",
+        "Madinah",
+        "Jeddah"
+      ],
+      "img": "/assets/images/umrah/umrah-by-air-standard/5.png",
+      "gallery": [
+        "/assets/images/umrah/umrah-by-air-standard/2.png",
+        "/assets/images/umrah/umrah-by-air-standard/2.png",
+        "/assets/images/umrah/umrah-by-air-standard/3.png",
+        "/assets/images/umrah/umrah-by-air-standard/1.png"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=UmrahAirStandard",
+      "startingPrice": "1,350",
+      "detailsLink": "/hajj-umrah/standard-umrah-air-08-days",
+      "description": "Experience a comfortable and time-saving Umrah journey with our air travel package. Designed for pilgrims who prefer convenience and efficiency, this package includes return flights, comfortable accommodations, and complete ground support in Saudi Arabia for a smooth and spiritually fulfilling experience.",
+      "itinerary": [
+        {
+          "day": "Day 01",
+          "title": "Departure from Dubai & Arrival in Jeddah",
+          "description": "Departure from Dubai via flight. Arrival at Jeddah Airport. Transfer to Makkah via private transport and hotel check-in."
+        },
+        {
+          "day": "Day 02",
+          "title": "Umrah & Briefing",
+          "description": "Proceed for Umrah with guidance, perform Umrah rituals, and attend the mandatory Umrah briefing session."
+        },
+        {
+          "day": "Day 03",
+          "title": "Jummah in Makkah",
+          "description": "Perform Jummah Prayer at Haram and engage in Ibadah and personal prayers."
+        },
+        {
+          "day": "Day 04",
+          "title": "Free Day (Ibadah)",
+          "description": "Day dedicated to personal worship and reflection."
+        },
+        {
+          "day": "Day 05",
+          "title": "Makkah Ziarat (Included)",
+          "description": "Guided visit to important holy sites in Makkah."
+        },
+        {
+          "day": "Day 06",
+          "title": "Free Day & Last Tawaf",
+          "description": "Free time for Ziarat or Ibadah. Perform Last Tawaf (Tawaf Al-Wida)."
+        },
+        {
+          "day": "Day 07",
+          "title": "Travel to Madinah",
+          "description": "Travel from Makkah to Madinah. Visit Masjid an-Nabawi, perform Madinah Ziarat, and hotel check-in."
+        },
+        {
+          "day": "Day 08",
+          "title": "Riaz ul Jannah Visit & Return",
+          "description": "Free day for Riaz ul Jannah visit and prayers at Masjid an-Nabawi. Transfer to airport for return flight to UAE."
+        }
+      ],
+      "inclusions": [
+        "Return Air Tickets from UAE",
+        "Visa Processing Assistance",
+        "06 Nights in Makkah (Comfort Hotel)",
+        "02 Nights in Madinah (Comfort Hotel)",
+        "Airport Transfers & Full KSA Transport",
+        "Makkah\u2013Madinah Intercity Travel",
+        "Guided Ziarat Tours in Holy Cities",
+        "Professional Muallam & Tour Guide",
+        "Free Ehram Gift",
+        "Travel Insurance"
+      ],
+      "exclusions": [
+        "Meals (unless specified)",
+        "Personal Expenses",
+        "Additional Ziarat (not in itinerary)",
+        "Tips & Gratuities",
+        "Optional Tours & Activities",
+        "Shopping Expenses"
+      ],
+      "highlights": [
+        "Faster and convenient Umrah via flight",
+        "Comprehensive transport within Saudi Arabia",
+        "Comfortable hotel stays near Haram",
+        "Guided spiritual experience for first-timers",
+        "Ideal for families and busy professionals",
+        "Personalized support throughout the trip"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "premium-umrah-air-05-days",
+      "title": "Premium Umrah Package by Air \u2013 5 Days",
+      "duration": "5 Nights / 6 Days",
+      "locations": [
+        "Makkah",
+        "Madinah",
+        "Jeddah"
+      ],
+      "img": "/assets/images/umrah/umrah-by-air-premium/5.png",
+      "gallery": [
+        "/assets/images/umrah/umrah-by-air-premium/2.png",
+        "/assets/images/umrah/umrah-by-air-premium/3.png",
+        "/assets/images/umrah/umrah-by-air-premium/4.png",
+        "/assets/images/umrah/umrah-by-air-premium/1.png"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=UmrahAirPremium",
+      "startingPrice": "2,250",
+      "detailsLink": "/hajj-umrah/premium-umrah-air-05-days",
+      "description": "Experience Umrah with comfort, convenience, and premium hospitality. This short-duration package is specially designed for those who want a spiritually fulfilling journey without compromising on quality. Enjoy luxury stays, smooth transfers, and complete guidance throughout your trip.",
+      "itinerary": [
+        {
+          "day": "Day 01",
+          "title": "Departure & Arrival in Makkah",
+          "description": "Departure from UAE via flight. Arrival at Jeddah Airport and transfer to Makkah. Warm welcome by our guide and check-in at 5-Star VOCO / similar hotel. Perform Umrah under guidance."
+        },
+        {
+          "day": "Day 02",
+          "title": "Jummah & Free Day",
+          "description": "Perform Friday Prayer at Haram. Free day for Ibadah, Tawaf, and personal worship."
+        },
+        {
+          "day": "Day 03",
+          "title": "Makkah Ziarat",
+          "description": "Guided Ziarat tour of Makkah. Visit important Islamic historical places."
+        },
+        {
+          "day": "Day 04",
+          "title": "Final Tawaf & Travel to Madinah",
+          "description": "Perform Final Tawaf and travel to Madinah. Hotel check-in and visit Masjid an-Nabawi."
+        },
+        {
+          "day": "Day 05",
+          "title": "Madinah Ziarat",
+          "description": "Guided Ziarat of Madinah. Spend time in prayers at Masjid an-Nabawi."
+        },
+        {
+          "day": "Day 06",
+          "title": "Return to UAE",
+          "description": "Transfer to airport for return flight back to UAE. End of a blessed and memorable journey."
+        }
+      ],
+      "inclusions": [
+        "Return Air Tickets (Priority Handling)",
+        "Full Visa Support & Processing",
+        "5-Star VOCO / Similar Hotel in Makkah",
+        "3-Star Hotel in Madinah",
+        "Airport VIP Transfers & Full Transport",
+        "Makkah\u2013Madinah Luxury Travel",
+        "Guided Ziarat in Both Holy Cities",
+        "Dedicated Professional Guide & Muallam",
+        "Free Ihram Gift",
+        "Comprehensive Travel Insurance"
+      ],
+      "exclusions": [
+        "Meals (unless specified)",
+        "Personal Expenses",
+        "Additional Ziarat",
+        "Tips & Gratuities",
+        "Optional Tours",
+        "Shopping Expenses"
+      ],
+      "highlights": [
+        "Premium 5-Star experience at VOCO Makkah",
+        "Priority support and short trip efficiency",
+        "Smooth, VIP-standard transport transfers",
+        "Complete spiritual guidance for busy groups",
+        "Ideal for families seeking high comfort",
+        "Professional management from start to finish"
+      ]
+    }
+  ]
+}

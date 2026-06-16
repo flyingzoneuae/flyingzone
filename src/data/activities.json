@@ -1,0 +1,110 @@
+{
+    "section": {
+        "subtitle": "Are you ready to travel?",
+        "title": "Explore Our Specialized Travel Services"
+    },
+    "activities": [
+        {
+            "id": "group-tours",
+            "tabId": "group-tours-tab",
+            "category": "Group Tours",
+            "title": "Adventure Together: Unforgettable Group Journeys",
+            "description": "Experience the joy of shared discovery. Our group tours bring people together to explore stunning destinations, create lasting bonds, and enjoy curated experiences that cater to everyone’s interests.",
+            "features": [
+                "Expert Group Leaders | Curated Itineraries",
+                "Shared Experiences | New Friendships"
+            ],
+            "icon": "GuidedToursIcon",
+            "videoClass": "",
+            "images": {
+                "img1": "/assets/images/home/services/group-tours-1.png",
+                "img2": "/assets/images/home/services/group-tours-2.png"
+            }
+        },
+        {
+            "id": "solo",
+            "tabId": "solo-tab",
+            "category": "Solo Trips",
+            "title": "Solo Adventure: Discover the World on Your Terms",
+            "description": "Empower yourself with solo travel. Explore at your own pace, meet fellow travelers, and gain a unique perspective on the world. Our solo trips are designed for safety and adventure.",
+            "features": [
+                "Safe Exploration | Flexible Planning",
+                "Social Connections | Personal Growth"
+            ],
+            "icon": "TourIcon",
+            "videoClass": "video3",
+            "images": {
+                "img1": "/assets/images/home/services/solo-trips-1.png",
+                "img2": "/assets/images/home/services/solo-trips-2.png"
+            }
+        },
+        {
+            "id": "honeymoon",
+            "tabId": "honeymoon-tab",
+            "category": "Honeymoon Trips",
+            "title": "Romantic Escapes: Begin Your Journey Together",
+            "description": "Celebrate your love with a dream honeymoon. From secluded beaches to charming cities, we craft intimate and magical experiences designed to create memories that will last a lifetime.",
+            "features": [
+                "Private Experiences | Luxury Accommodations",
+                "Romantic Settings | Personalized Touches"
+            ],
+            "icon": "GuestIcon",
+            "videoClass": "video1",
+            "images": {
+                "img1": "/assets/images/home/services/honeymoon-trips-1.png",
+                "img2": "/assets/images/home/services/honeymoon-trips-2.png"
+            }
+        },
+        {
+            "id": "corporate",
+            "tabId": "corporate-tab",
+            "category": "Corporate Tours",
+            "title": "Corporate Excellence: Professional Travel Redefined",
+            "description": "Elevate your business travel experience. We provide seamless logistics, team-building opportunities, and comfortable settings for meetings and retreats, ensuring a productive and enjoyable trip.",
+            "features": [
+                "Efficient Logistics | Team Building",
+                "Premium Services | Customized Solutions"
+            ],
+            "icon": "MissionVisionIcon",
+            "videoClass": "video3",
+            "images": {
+                "img1": "/assets/images/home/services/corporate-tours-1.png",
+                "img2": "/assets/images/home/services/corporate-tours-2.png"
+            }
+        },
+        {
+            "id": "holidays",
+            "tabId": "holidays-tab",
+            "category": "Holiday Trips",
+            "title": "Holiday Bliss: Seasonal Getaways for Everyone",
+            "description": "Make the most of your holiday season. Whether you're looking for winter wonderlands or summer sunshine, our holiday packages offer the perfect blend of relaxation and festive cheer.",
+            "features": [
+                "Seasonal Destinations | Festive Activities",
+                "Family Friendly | All-Inclusive Options"
+            ],
+            "icon": "CalendarIcon",
+            "videoClass": "video2",
+            "images": {
+                "img1": "/assets/images/home/services/holiday-trips-1.png",
+                "img2": "/assets/images/home/services/holiday-trips-2.png"
+            }
+        },
+        {
+            "id": "other-tours",
+            "tabId": "other-tours-tab",
+            "category": "Other Tours",
+            "title": "Sacred Journeys: Professional Hajj & Umrah Services",
+            "description": "Since 2007, we have specialized in spiritual travel. With offices in Pakistan and Dubai, and a new branch opening in Makkah, we ensure your pilgrimage is comfortable and spiritually fulfilling.",
+            "features": [
+                "Makkah & Madinah Hotels | Visa Assistance",
+                "B2B & B2C Packages | Expert Guidance"
+            ],
+            "icon": "HistoricalIcon",
+            "videoClass": "video5",
+            "images": {
+                "img1": "/assets/images/home/services/other-trips-1.png",
+                "img2": "/assets/images/home/services/other-trips-2.png"
+            }
+        }
+    ]
+}

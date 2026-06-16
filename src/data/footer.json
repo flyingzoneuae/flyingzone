@@ -1,0 +1,154 @@
+{
+    "logo": "/assets/img/logo2.svg",
+    "cta": {
+        "title": "Want <span>to Take <br /></span> Tour Packages<span>?</span>",
+        "buttonText": "Book A Tour",
+        "buttonLink": "/services/tour-packages"
+    },
+    "quickLinks": {
+        "title": "Quick Link",
+        "links": [
+            {
+                "text": "Home",
+                "link": "/"
+            },
+            {
+                "text": "About Us",
+                "link": "/about"
+            },
+            {
+                "text": "Contact Us",
+                "link": "/contact"
+            },
+            {
+                "text": "Article",
+                "link": "/blog"
+            }
+        ]
+    },
+    "hajjUmrahLinks": {
+        "title": "Hajj & Umrah",
+        "links": [
+            {
+                "text": "Umrah By Bus",
+                "link": "/hajj-umrah/umrah-by-bus"
+            },
+            {
+                "text": "Umrah By Air",
+                "link": "/hajj-umrah/umrah-by-air"
+            },
+            {
+                "text": "Umrah By Air Premium",
+                "link": "/hajj-umrah/umrah-by-air-premium"
+            },
+            {
+                "text": "Hajj Packages",
+                "link": "/hajj-umrah/hajj-packages"
+            }
+        ]
+    },
+    "serviceLinks": {
+        "title": "Other Services",
+        "links": [
+            {
+                "text": "Flight Tickets",
+                "link": "/services/flight-tickets"
+            },
+            {
+                "text": "Tour Packages",
+                "link": "/services/tour-packages"
+            },
+            {
+                "text": "Travel Insurance",
+                "link": "/services/travel-insurance"
+            },
+            {
+                "text": "Hotel Reservations",
+                "link": "/services/hotel-reservations"
+            },
+            {
+                "text": "Global Visa",
+                "link": "/visas/global"
+            },
+            {
+                "text": "UAE Visa",
+                "link": "/visas/uae"
+            }
+        ]
+    },
+    "contact": {
+        "phone": {
+            "number": "+971 56 722 1458",
+            "link": "tel:999858624984"
+        },
+        "email": {
+            "address": "info@flyingzone.ae",
+            "link": "mailto:info@flyingzone.ae"
+        },
+        "addresses": [
+            {
+                "text": "Faisalabad Pak head office",
+                "link": "#"
+            },
+            {
+                "text": "Lahore, Pak",
+                "link": "#"
+            },
+            {
+                "text": "Karachi Pak",
+                "link": "#"
+            }
+        ]
+    },
+    "about": {
+        "title": "We Are Here",
+        "description": "Quisque purus augue, facilisis andi neque idont accumsan fringilla massa. Vivamusol id nibhom condimentum."
+    },
+    "paymentPartner": {
+        "title": "Payment Partner",
+        "icons": [
+            {
+                "img": "/assets/img/home1/icon/tabby-logo.png",
+                "alt": "tabby"
+            },
+            {
+                "img": "/assets/img/home1/icon/tamara-logo.png",
+                "alt": "tamara"
+            }
+        ]
+    },
+    "socials": [
+        {
+            "icon": "bx bxl-facebook",
+            "link": "https://www.facebook.com/"
+        },
+        {
+            "type": "twitter-x",
+            "link": "https://twitter.com/"
+        },
+        {
+            "icon": "bx bxl-pinterest-alt",
+            "link": "https://www.pinterest.com/"
+        },
+        {
+            "icon": "bx bxl-instagram",
+            "link": "https://www.instagram.com/"
+        }
+    ],
+    "copyright": {
+        "year": "2024",
+        "company": "Flying-Zone",
+        "designer": "Egens Lab",
+        "designerLink": "https://www.egenslab.com/"
+    },
+    "bottomLinks": [
+        {
+            "text": "Privacy Policy",
+            "link": "#"
+        },
+        {
+            "text": "Terms & Condition",
+            "link": "#"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "sectionTitle": {
+        "subtitle": "Our Promotions",
+        "title": "Phenomenal Deals Offered"
+    },
+    "banner1": {
+        "image": "/assets/img/home1/banner2-card-img1.png",
+        "category": "Savings worldwide",
+        "offer": "20% Off",
+        "buttonText": "Discover Great Deal",
+        "buttonLink": "/package"
+    },
+    "banner2": {
+        "image": "/assets/img/home1/banner2-card-img3.png",
+        "category": "Couple Tour",
+        "title": "4 Days In Switzerland",
+        "link": "/package",
+        "offer": "50%"
+    },
+    "banner3": {
+        "image": "/assets/img/home1/banner2-card-img4.png",
+        "category": "Honeymoon Tour",
+        "offerPrefix": "Enjoy",
+        "offerPercent": "40%",
+        "offerSuffix": "Off",
+        "description": "2 Country & 15 Location",
+        "buttonText": "Book Now",
+        "buttonLink": "/package"
+    },
+    "banner4": {
+        "image": "/assets/img/home1/banner2-card-img2.png",
+        "category": "Savings worldwide",
+        "offer": "50% Off",
+        "description": "For Your First Book",
+        "buttonText": "Book Now",
+        "buttonLink": "/package"
+    }
+}

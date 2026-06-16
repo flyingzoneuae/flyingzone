@@ -1,0 +1,32 @@
+{
+  "travelTypes": [
+    { "value": "tourism", "label": "Tourism" },
+    { "value": "business", "label": "Business" },
+    { "value": "study", "label": "Study" },
+    { "value": "umrah-hajj", "label": "Umrah / Hajj" },
+    { "value": "other", "label": "Other" }
+  ],
+  "travelerTypes": [
+    { "value": "individual", "label": "Individual" },
+    { "value": "family", "label": "Family" },
+    { "value": "group", "label": "Group" }
+  ],
+  "coverageTypes": [
+    { "value": "basic", "label": "Basic" },
+    { "value": "standard", "label": "Standard" },
+    { "value": "premium", "label": "Premium" }
+  ],
+  "visaTypes": [
+    { "value": "visit", "label": "Visit Visa" },
+    { "value": "student", "label": "Student Visa" },
+    { "value": "work", "label": "Work Visa" }
+  ],
+  "preferredInsurers": [
+    { "value": "", "label": "No preference" },
+    { "value": "axa", "label": "AXA" },
+    { "value": "allianz", "label": "Allianz" },
+    { "value": "metlife", "label": "MetLife" },
+    { "value": "orient", "label": "Orient Insurance" },
+    { "value": "other", "label": "Other (specify in notes)" }
+  ]
+}

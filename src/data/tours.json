@@ -1,0 +1,365 @@
+[
+  {
+    "id": 1,
+    "title": "Thailand Trail: Islands, Cities & Culture",
+    "slug": "thailand-trail-islands-cities-culture",
+    "img": "/assets/images/tours/thailand-trail-islands-cities-culture/8.png",
+    "duration": "9 Days, 8 Nights",
+    "countries": "1 Country",
+    "rating": "4.8 / 5.0",
+    "tag": "Popular",
+    "locations": [
+      "Phuket",
+      "Pattaya"
+    ],
+    "gallery": [
+      "/assets/images/tours/thailand-trail-islands-cities-culture/2.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/3.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/4.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/5.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/6.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/7.png",
+      "/assets/images/tours/thailand-trail-islands-cities-culture/8.png"
+    ],
+    "description": "Embark on a comprehensive journey through Thailand’s most iconic landscapes. From the high-energy streets of the city to the tranquil vibes of tropical islands, this trail offers the perfect balance of adventure and relaxation.",
+    "inclusions": [
+      "8 Nights Hotel Accommodation",
+      "Daily Breakfast",
+      "All Internal Transfers & Sightseeing",
+      "Half-Day Coral Island Tour (for groups of 4+)"
+    ],
+    "exclusions": [
+      "International Airfare",
+      "Personal Expenses",
+      "Visa Fees",
+      "Travel Insurance"
+    ],
+    "highlights": [
+      "4 Nights in Phuket + 4 Nights in Pattaya",
+      "Free Half-Day Coral Island Tour",
+      "Daily Breakfast & Premium Hotel Stays",
+      "Private Guided Sightseeing"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1-4",
+        "title": "Phuket Discovery",
+        "description": "Arrival in Phuket and transfer to your hotel. Spend 4 nights exploring the island's beaches and nightlife."
+      },
+      {
+        "day": "Day 5-8",
+        "title": "Pattaya Vibes",
+        "description": "Transfer to Pattaya for 4 nights. Enjoy the vibrant coastal city spirit and attractions."
+      },
+      {
+        "day": "Day 9",
+        "title": "Departure",
+        "description": "Final breakfast and transfer to the airport for your journey home."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  },
+  {
+    "id": 2,
+    "title": "Phuket & Krabi: 5 Days of Paradise in Thailand",
+    "slug": "phuket-krabi-paradise-escape",
+    "img": "/assets/images/tours/phuket-krabi-paradise-escape/8.png",
+    "duration": "5 Days, 4 Nights",
+    "countries": "1 Country",
+    "rating": "4.9 / 5.0",
+    "price": "$520",
+    "tag": "Featured",
+    "locations": [
+      "Phuket",
+      "Krabi"
+    ],
+    "gallery": [
+      "/assets/images/tours/phuket-krabi-paradise-escape/2.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/3.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/4.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/5.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/6.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/7.png",
+      "/assets/images/tours/phuket-krabi-paradise-escape/8.png"
+    ],
+    "description": "Double the paradise with this twin-island escape. Relax in the luxury of Fishermen’s Harbour in Phuket and the trendy Glow Ao Nang in Krabi. Explore crystal-clear lagoons and Maya Bay.",
+    "inclusions": [
+      "Stay at Premium 4★ Resorts",
+      "Daily Breakfast",
+      "Speedboat Tour to Phi Phi & Maya Bay",
+      "Private Guided Sightseeing Tours"
+    ],
+    "exclusions": [
+      "International Airfare",
+      "Lunch and Dinner",
+      "Personal Expenses",
+      "National Park Fees"
+    ],
+    "highlights": [
+      "Speedboat Tour to Phi Phi & Maya Bay",
+      "Krabi Island Adventure: Koh Poda & Chicken Island",
+      "Phuket City Exploration: Old Town & Chalong Temple",
+      "Snorkel & Swim in crystal-clear waters"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1-2",
+        "title": "Phuket Luxury",
+        "description": "Arrive in Phuket and stay at Fishermen’s Harbour. Explore Karon Viewpoint and Old Town."
+      },
+      {
+        "day": "Day 3",
+        "title": "Phi Phi Islands",
+        "description": "Full day speedboat tour to Maya Bay, Monkey Beach, and snorkeling spots."
+      },
+      {
+        "day": "Day 4-5",
+        "title": "Krabi Magic",
+        "description": "Transfer to Krabi. Island hop across Koh Poda and Phra Nang Cave Beach before departure."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  },
+  {
+    "id": 3,
+    "title": "Let’s Go Almaty: The Heart of Kazakhstan",
+    "slug": "lets-go-almaty-kazakhstan",
+    "img": "/assets/images/tours/lets-go-almaty-kazakhstan/8.png",
+    "duration": "5 Days, 4 Nights",
+    "countries": "1 Country",
+    "rating": "4.7 / 5.0",
+    "price": "$640",
+    "tag": "New",
+    "locations": [
+      "Almaty"
+    ],
+    "gallery": [
+      "/assets/images/tours/lets-go-almaty-kazakhstan/2.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/3.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/4.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/5.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/6.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/7.png",
+      "/assets/images/tours/lets-go-almaty-kazakhstan/8.png"
+    ],
+    "description": "Discover the stunning mountain scenery and modern charm of Almaty. From snow-capped peaks to vibrant city parks, Kazakhstan’s largest city is a hidden gem waiting to be explored.",
+    "inclusions": [
+      "4 Nights Hotel Stay",
+      "Full Transport & Airport Transfers",
+      "Daily Breakfast & Scheduled Meals",
+      "Guided Sightseeing Tours"
+    ],
+    "exclusions": [
+      "International Airfare",
+      "Visa Fees",
+      "Personal Expenses",
+      "Tipping"
+    ],
+    "highlights": [
+      "Stunning mountain scenery and modern charm",
+      "Full Sightseeing & Transport Included",
+      "Daily Meals & Hotel Stay",
+      "Local Kazakh hospitality experience"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Arrival",
+        "description": "Meet and transfer to your hotel in Almaty. Evening at leisure."
+      },
+      {
+        "day": "Day 2-3",
+        "title": "Mountain & City",
+        "description": "Guided tours of the city parks and the snow-capped mountains of Kazakhstan."
+      },
+      {
+        "day": "Day 4-5",
+        "title": "Heritage & Departure",
+        "description": "Explore cultural sites and local markets before the final airport transfer."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  },
+  {
+    "id": 4,
+    "title": "Yerevan: Culture, Mountains & Magic",
+    "slug": "yerevan-armenia-culture-magic",
+    "img": "/assets/images/tours/yerevan-armenia-culture-magic/1.png",
+    "duration": "5 Days, 4 Nights",
+    "countries": "1 Country",
+    "rating": "4.8 / 5.0",
+    "price": "$580",
+    "tag": "Culture",
+    "locations": [
+      "Yerevan"
+    ],
+    "gallery": [
+      "/assets/images/tours/yerevan-armenia-culture-magic/2.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/3.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/4.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/5.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/6.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/7.png",
+      "/assets/images/tours/yerevan-armenia-culture-magic/8.png"
+    ],
+    "description": "Step into one of the world's oldest cities. Yerevan is a city of 'pink stone,' ancient history, and majestic views of Mount Ararat. Experience Armenian culture and cuisine.",
+    "inclusions": [
+      "4 Nights Accommodation in Central Yerevan",
+      "Daily Breakfast",
+      "Professional Guided Tours",
+      "All Ground Transportation"
+    ],
+    "exclusions": [
+      "International Flights",
+      "Visa and Insurance",
+      "Lunch and Dinner",
+      "Personal Items"
+    ],
+    "highlights": [
+      "Explore Republic Square and central Yerevan",
+      "Majestic views of Mount Ararat",
+      "Guided Cultural Sightseeing through 'Pink Stone' architecture",
+      "Authentic Armenian culinary experiences"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1-2",
+        "title": "Heart of Yerevan",
+        "description": "Explore the soul of the city from Republic Square to historic districts."
+      },
+      {
+        "day": "Day 3-4",
+        "title": "Mountain Landscapes",
+        "description": "Journey through the serene mountains surrounding the city."
+      },
+      {
+        "day": "Day 5",
+        "title": "Farewell Yerevan",
+        "description": "Final morning in the city before transferring to the airport."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  },
+  {
+    "id": 5,
+    "title": "Thailand Trio: Phuket, Pattaya & Bangkok",
+    "slug": "thailand-trio-phuket-pattaya-bangkok",
+    "img": "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/8.png",
+    "duration": "7 Days, 6 Nights",
+    "countries": "1 Country",
+    "rating": "5.0 / 5.0",
+    "price": "$920",
+    "tag": "Bestseller",
+    "locations": [
+      "Phuket",
+      "Pattaya",
+      "Bangkok"
+    ],
+    "gallery": [
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/2.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/3.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/4.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/5.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/6.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/7.png",
+      "/assets/images/tours/thailand-trio-phuket-pattaya-bangkok/8.png"
+    ],
+    "description": "The ultimate Thailand experience. This tour covers the sun-soaked shores of Phuket, the coastal energy of Pattaya, and the bustling metropolitan charm of Bangkok.",
+    "inclusions": [
+      "6 Nights Hotel Accommodation",
+      "Daily Breakfast",
+      "All Ground Transportation & Sightseeing",
+      "Professional Guided Tours"
+    ],
+    "exclusions": [
+      "International Flights & Visa Fees",
+      "Lunch and Dinner (unless specified)",
+      "Gratuities",
+      "Personal Expenses"
+    ],
+    "highlights": [
+      "2 Nights Phuket | 2 Nights Pattaya | 2 Nights Bangkok",
+      "Phuket Coastal Beauty and Patong Beach",
+      "Pattaya City Spirit and cultural attractions",
+      "Bangkok Discovery: Temples, Markets, and Malls"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1-2",
+        "title": "Phuket Sun",
+        "description": "Relax on Patong beach and explore hidden gems of the island."
+      },
+      {
+        "day": "Day 3-4",
+        "title": "Pattaya Spirit",
+        "description": "Transfer to Pattaya for seaside breeze and unique cultural sites."
+      },
+      {
+        "day": "Day 5-7",
+        "title": "Bangkok Magic",
+        "description": "Conclude in the high-energy capital visiting temples and markets."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  },
+  {
+    "id": 6,
+    "title": "Pattaya Escape: 5 Days of Family Fun & Seaside Bliss",
+    "slug": "pattaya-escape-family-fun",
+    "img": "/assets/images/tours/pattaya-escape-family-fun/8.png",
+    "duration": "5 Days, 4 Nights",
+    "countries": "1 Country",
+    "rating": "4.6 / 5.0",
+    "price": "$480",
+    "tag": "Family",
+    "locations": [
+      "Pattaya"
+    ],
+    "gallery": [
+      "/assets/images/tours/pattaya-escape-family-fun/2.png",
+      "/assets/images/tours/pattaya-escape-family-fun/3.png",
+      "/assets/images/tours/pattaya-escape-family-fun/4.png",
+      "/assets/images/tours/pattaya-escape-family-fun/5.png",
+      "/assets/images/tours/pattaya-escape-family-fun/6.png",
+      "/assets/images/tours/pattaya-escape-family-fun/7.png",
+      "/assets/images/tours/pattaya-escape-family-fun/8.png"
+    ],
+    "description": "A dedicated 5-day retreat in Thailand’s favorite seaside city. Perfect for families and couples, this package focuses on sun-soaked beaches and relaxation.",
+    "inclusions": [
+      "4 Nights Premium Hotel Stay",
+      "Daily Breakfast",
+      "All Sightseeing as per the plan",
+      "Professional Driver/Guide"
+    ],
+    "exclusions": [
+      "Personal Expenses & Souvenirs",
+      "Water Sport Activity Fees",
+      "Lunch and Dinner",
+      "Tipping"
+    ],
+    "highlights": [
+      "4 Nights in Pattaya",
+      "Visit Sanctuary of Truth and local temples",
+      "Relax on the golden sands of Jomtien Beach",
+      "Family-friendly parks and gardens exploration"
+    ],
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "title": "Check-in",
+        "description": "Arrival and transfer to your tropical home away from home."
+      },
+      {
+        "day": "Day 2-3",
+        "title": "Seaside Bliss",
+        "description": "Beachside relaxation and water sports on Pattaya's famous coast."
+      },
+      {
+        "day": "Day 4-5",
+        "title": "Explore & Depart",
+        "description": "Visit the Sanctuary of Truth before your final airport transfer."
+      }
+    ],
+    "videoUrl": "dQw4w9WgXcQ"
+  }
+]

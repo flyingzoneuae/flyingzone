@@ -1,0 +1,462 @@
+{
+  "hajjPackages": [
+    {
+      "id": "1",
+      "slug": "premium-hajj-package-14-days",
+      "batch": "14 Days / 15 Nights",
+      "img": "/assets/img/home1/package-card-img1.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Premium Hajj Package - 14 Days",
+      "price": "3,999",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah"
+      ],
+      "type": "premium",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a premium Hajj journey with our comprehensive 14-day package. This exclusive package includes premium hotel accommodations near the Haram, comfortable transportation, expert guidance, and all necessary arrangements for a complete and spiritual Hajj pilgrimage.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, VIP transfer to Mecca. Check-in at premium hotel near the Haram and rest after the journey."
+        },
+        {
+          "day": "Day 2-5",
+          "title": "Mecca - Preparation and Umrah",
+          "description": "Perform Umrah rituals, visit the Grand Mosque, complete Tawaf and Sai, and spend time in prayer and spiritual preparation for Hajj."
+        },
+        {
+          "day": "Day 6",
+          "title": "Journey to Mina",
+          "description": "Travel to Mina on the 8th of Dhul-Hijjah. Set up camp and prepare for the Hajj rituals. Evening prayers and rest."
+        },
+        {
+          "day": "Day 7",
+          "title": "Day of Arafat",
+          "description": "Travel to Arafat for the most important day of Hajj. Stand in prayer and supplication from noon until sunset. This is the pinnacle of the Hajj pilgrimage."
+        },
+        {
+          "day": "Day 8",
+          "title": "Muzdalifah and Mina",
+          "description": "After sunset, proceed to Muzdalifah for prayers and rest. Collect pebbles for the stoning ritual. Return to Mina before dawn."
+        },
+        {
+          "day": "Day 9",
+          "title": "Eid al-Adha - Stoning and Sacrifice",
+          "description": "Perform the stoning of Jamarat al-Aqaba, offer sacrifice, shave or trim hair, and perform Tawaf al-Ifadah. Return to Mina for the night."
+        },
+        {
+          "day": "Day 10-11",
+          "title": "Days of Tashreeq",
+          "description": "Continue stoning the three Jamarat on the 11th and 12th of Dhul-Hijjah. Perform prayers and supplications in Mina."
+        },
+        {
+          "day": "Day 12",
+          "title": "Return to Mecca",
+          "description": "Return to Mecca, perform final Tawaf al-Wida (Farewell Tawaf), and complete all Hajj rituals. Rest and reflection."
+        },
+        {
+          "day": "Day 13",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at premium hotel near the Prophet's Mosque. Visit the Prophet's Mosque and offer prayers."
+        },
+        {
+          "day": "Day 14",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend time in prayer and reflection."
+        },
+        {
+          "day": "Day 15",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight with VIP assistance."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Premium hotel accommodation near Haram (4-star)",
+        "All ground transportation including VIP transfers",
+        "Visa processing assistance with priority service",
+        "Meals (breakfast and dinner)",
+        "Professional multilingual guide services",
+        "Travel insurance with comprehensive coverage",
+        "Hajj rituals guidance and support",
+        "Camp accommodation in Mina and Arafat",
+        "Transportation for Hajj rituals"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses",
+        "Sacrifice fees (can be arranged separately)"
+      ],
+      "highlights": [
+        "Premium hotel accommodation near the Grand Mosque",
+        "Comprehensive 14-day Hajj journey",
+        "Expert guidance for all Hajj rituals",
+        "VIP treatment and comfortable transportation",
+        "Professional multilingual guides",
+        "Complete spiritual and cultural experience",
+        "All essential Hajj services included"
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "deluxe-hajj-package-21-days",
+      "batch": "21 Days / 22 Nights",
+      "img": "/assets/img/home1/package-card-img2.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Deluxe Hajj Package - 21 Days",
+      "price": "4,999",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh"
+      ],
+      "type": "deluxe",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a deluxe Hajj journey with our extended 21-day package. This comprehensive package offers more time for spiritual reflection, premium accommodations, visits to multiple holy cities, and complete support throughout your Hajj pilgrimage.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, VIP transfer to Mecca. Check-in at deluxe hotel near the Haram with premium amenities."
+        },
+        {
+          "day": "Day 2-6",
+          "title": "Mecca - Extended Preparation",
+          "description": "Perform Umrah rituals, spend extended time at the Grand Mosque, perform multiple Tawaf and Sai, visit historical sites, and engage in deep spiritual preparation for Hajj."
+        },
+        {
+          "day": "Day 7",
+          "title": "Visit Jeddah",
+          "description": "Day trip to Jeddah to explore the historic city, visit the Corniche, and experience the Red Sea coastline before Hajj."
+        },
+        {
+          "day": "Day 8",
+          "title": "Journey to Mina",
+          "description": "Travel to Mina on the 8th of Dhul-Hijjah. Set up premium camp accommodation and prepare for the Hajj rituals. Evening prayers and spiritual preparation."
+        },
+        {
+          "day": "Day 9",
+          "title": "Day of Arafat",
+          "description": "Travel to Arafat for the most important day of Hajj. Stand in prayer and supplication from noon until sunset. Expert guidance and support throughout."
+        },
+        {
+          "day": "Day 10",
+          "title": "Muzdalifah and Mina",
+          "description": "After sunset, proceed to Muzdalifah for prayers and rest. Collect pebbles for the stoning ritual. Return to Mina with comfortable transportation."
+        },
+        {
+          "day": "Day 11",
+          "title": "Eid al-Adha - Stoning and Sacrifice",
+          "description": "Perform the stoning of Jamarat al-Aqaba, offer sacrifice, shave or trim hair, and perform Tawaf al-Ifadah. Return to Mina for the night."
+        },
+        {
+          "day": "Day 12-13",
+          "title": "Days of Tashreeq",
+          "description": "Continue stoning the three Jamarat on the 11th and 12th of Dhul-Hijjah. Perform prayers and supplications in Mina with extended time for reflection."
+        },
+        {
+          "day": "Day 14",
+          "title": "Return to Mecca",
+          "description": "Return to Mecca, perform final Tawaf al-Wida (Farewell Tawaf), and complete all Hajj rituals. Rest and spiritual reflection."
+        },
+        {
+          "day": "Day 15-18",
+          "title": "Extended Stay in Mecca",
+          "description": "Spend extended time in Mecca, perform additional prayers at the Grand Mosque, visit historical sites, and engage in spiritual activities."
+        },
+        {
+          "day": "Day 19",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at deluxe hotel near the Prophet's Mosque. Visit the Prophet's Mosque and offer prayers."
+        },
+        {
+          "day": "Day 20-21",
+          "title": "Extended Medina Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend extended time in prayer and reflection."
+        },
+        {
+          "day": "Day 22",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight with VIP assistance."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Deluxe hotel accommodation near Haram (4-star)",
+        "All ground transportation including luxury vehicles",
+        "Visa processing assistance with priority service",
+        "Meals (breakfast and dinner)",
+        "Professional multilingual guide services",
+        "Travel insurance with comprehensive coverage",
+        "Hajj rituals guidance and support",
+        "Premium camp accommodation in Mina and Arafat",
+        "Transportation for Hajj rituals",
+        "City tours to Jeddah and Riyadh",
+        "Extended stay options"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses",
+        "Sacrifice fees (can be arranged separately)"
+      ],
+      "highlights": [
+        "Extended 21-day comprehensive Hajj journey",
+        "Deluxe hotel accommodation near the Grand Mosque",
+        "Visits to multiple holy cities",
+        "Extended time for spiritual reflection",
+        "Premium camp accommodation during Hajj",
+        "Expert guidance throughout the journey",
+        "Complete cultural and spiritual experience"
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "standard-hajj-package-30-days",
+      "batch": "30 Days / 31 Nights",
+      "img": "/assets/img/home1/package-card-img3.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Standard Hajj Package - 30 Days",
+      "price": "2,999",
+      "place_list": [
+        "Mecca",
+        "Medina",
+        "Jeddah",
+        "Riyadh",
+        "Taif"
+      ],
+      "type": "standard",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "Experience a comprehensive standard Hajj journey with our 30-day package. This extended package offers ample time for spiritual reflection, comfortable accommodations, and visits to all major holy cities for a complete Hajj pilgrimage experience.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, transfer to Mecca. Check-in at standard hotel near the Haram and rest."
+        },
+        {
+          "day": "Day 2-8",
+          "title": "Mecca - Extended Preparation",
+          "description": "Perform Umrah rituals, spend extended time at the Grand Mosque, perform multiple Tawaf and Sai, visit historical sites, and engage in comprehensive spiritual preparation for Hajj."
+        },
+        {
+          "day": "Day 9",
+          "title": "Visit Taif",
+          "description": "Day trip to Taif, the mountain resort city, to enjoy the cooler climate and visit historical sites including the Shubra Palace."
+        },
+        {
+          "day": "Day 10",
+          "title": "Visit Jeddah",
+          "description": "Explore Jeddah's historic Al-Balad district, visit the Corniche, and experience the Red Sea coastline."
+        },
+        {
+          "day": "Day 11",
+          "title": "Journey to Mina",
+          "description": "Travel to Mina on the 8th of Dhul-Hijjah. Set up camp accommodation and prepare for the Hajj rituals. Evening prayers and rest."
+        },
+        {
+          "day": "Day 12",
+          "title": "Day of Arafat",
+          "description": "Travel to Arafat for the most important day of Hajj. Stand in prayer and supplication from noon until sunset. This is the pinnacle of the Hajj pilgrimage."
+        },
+        {
+          "day": "Day 13",
+          "title": "Muzdalifah and Mina",
+          "description": "After sunset, proceed to Muzdalifah for prayers and rest. Collect pebbles for the stoning ritual. Return to Mina before dawn."
+        },
+        {
+          "day": "Day 14",
+          "title": "Eid al-Adha - Stoning and Sacrifice",
+          "description": "Perform the stoning of Jamarat al-Aqaba, offer sacrifice, shave or trim hair, and perform Tawaf al-Ifadah. Return to Mina for the night."
+        },
+        {
+          "day": "Day 15-16",
+          "title": "Days of Tashreeq",
+          "description": "Continue stoning the three Jamarat on the 11th and 12th of Dhul-Hijjah. Perform prayers and supplications in Mina."
+        },
+        {
+          "day": "Day 17",
+          "title": "Return to Mecca",
+          "description": "Return to Mecca, perform final Tawaf al-Wida (Farewell Tawaf), and complete all Hajj rituals. Rest and reflection."
+        },
+        {
+          "day": "Day 18-22",
+          "title": "Extended Stay in Mecca",
+          "description": "Spend extended time in Mecca, perform additional prayers at the Grand Mosque, visit historical sites, and engage in spiritual activities."
+        },
+        {
+          "day": "Day 23",
+          "title": "Visit Riyadh",
+          "description": "Day trip to Riyadh to explore the capital, visit the National Museum, and experience modern Saudi Arabia."
+        },
+        {
+          "day": "Day 24",
+          "title": "Transfer to Medina",
+          "description": "Travel to Medina by air, check-in at standard hotel near the Prophet's Mosque. Visit the Prophet's Mosque and offer prayers."
+        },
+        {
+          "day": "Day 25-29",
+          "title": "Extended Medina Visit",
+          "description": "Visit the Prophet's Mosque, Quba Mosque, historical sites including Uhud Mountain, and spend extended time in prayer and reflection."
+        },
+        {
+          "day": "Day 30",
+          "title": "Return to Jeddah",
+          "description": "Return to Jeddah for final shopping and preparation for departure."
+        },
+        {
+          "day": "Day 31",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Standard hotel accommodation near Haram (3-star)",
+        "All ground transportation including city tours",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Professional guide services",
+        "Travel insurance",
+        "Hajj rituals guidance and support",
+        "Camp accommodation in Mina and Arafat",
+        "Transportation for Hajj rituals",
+        "City tours to Taif, Jeddah, and Riyadh"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses",
+        "Sacrifice fees (can be arranged separately)"
+      ],
+      "highlights": [
+        "Extended 30-day comprehensive Hajj journey",
+        "Standard hotel accommodation near the Grand Mosque",
+        "Visits to all major holy cities",
+        "Extended time for spiritual reflection",
+        "Comfortable camp accommodation during Hajj",
+        "Expert guidance throughout the journey",
+        "Complete cultural and spiritual experience"
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "economy-hajj-package-10-days",
+      "batch": "10 Days / 11 Nights",
+      "img": "/assets/img/home1/package-card-img4.png",
+      "location_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "title": "Economy Hajj Package - 10 Days",
+      "price": "1,999",
+      "place_list": [
+        "Mecca",
+        "Medina"
+      ],
+      "type": "economy",
+      "departureDates": ["2026-01-10", "2026-01-15", "2026-01-20", "2026-01-23", "2026-01-28"],
+      "description": "An affordable and efficient 10-day Hajj package, perfect for those with limited time. This budget-friendly option includes all essential services for a complete Hajj experience with comfortable accommodations and expert guidance.",
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Jeddah",
+          "description": "Arrive at King Abdulaziz International Airport, transfer to Mecca. Check-in at economy hotel near the Haram and brief orientation."
+        },
+        {
+          "day": "Day 2-3",
+          "title": "Mecca - Preparation",
+          "description": "Perform Umrah rituals, visit the Grand Mosque, complete Tawaf and Sai, and prepare for Hajj rituals."
+        },
+        {
+          "day": "Day 4",
+          "title": "Journey to Mina",
+          "description": "Travel to Mina on the 8th of Dhul-Hijjah. Set up camp and prepare for the Hajj rituals."
+        },
+        {
+          "day": "Day 5",
+          "title": "Day of Arafat",
+          "description": "Travel to Arafat for the most important day of Hajj. Stand in prayer and supplication from noon until sunset."
+        },
+        {
+          "day": "Day 6",
+          "title": "Muzdalifah and Mina",
+          "description": "After sunset, proceed to Muzdalifah for prayers and rest. Collect pebbles for the stoning ritual. Return to Mina."
+        },
+        {
+          "day": "Day 7",
+          "title": "Eid al-Adha - Stoning and Sacrifice",
+          "description": "Perform the stoning of Jamarat al-Aqaba, offer sacrifice, shave or trim hair, and perform Tawaf al-Ifadah. Return to Mina."
+        },
+        {
+          "day": "Day 8",
+          "title": "Days of Tashreeq",
+          "description": "Continue stoning the three Jamarat. Perform prayers and supplications in Mina."
+        },
+        {
+          "day": "Day 9",
+          "title": "Return to Mecca and Transfer to Medina",
+          "description": "Return to Mecca, perform final Tawaf al-Wida. Travel to Medina, check-in at hotel near the Prophet's Mosque."
+        },
+        {
+          "day": "Day 10",
+          "title": "Medina Visit",
+          "description": "Visit the Prophet's Mosque, offer prayers, and visit key historical sites."
+        },
+        {
+          "day": "Day 11",
+          "title": "Departure",
+          "description": "Transfer to airport for departure flight."
+        }
+      ],
+      "inclusions": [
+        "Return economy class airfare",
+        "Economy hotel accommodation near Haram (3-star)",
+        "All ground transportation",
+        "Visa processing assistance",
+        "Meals (breakfast and dinner)",
+        "Basic guide services",
+        "Travel insurance",
+        "Hajj rituals guidance",
+        "Camp accommodation in Mina and Arafat",
+        "Transportation for Hajj rituals"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Additional meals not mentioned",
+        "Tips and gratuities",
+        "Optional tours and activities",
+        "Shopping expenses",
+        "Sacrifice fees (can be arranged separately)"
+      ],
+      "highlights": [
+        "Affordable pricing for budget-conscious travelers",
+        "Efficient 10-day Hajj itinerary",
+        "All essential Hajj services included",
+        "Comfortable accommodation near holy sites",
+        "Expert guidance for Hajj rituals",
+        "Complete Hajj experience"
+      ]
+    }
+  ]
+}

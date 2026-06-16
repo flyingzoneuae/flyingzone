@@ -1,0 +1,50 @@
+{
+  "section": {
+    "subtitle": "Our Success",
+    "title": "Why Choose Flying-Zone"
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Worldwide Coverage",
+      "description": "Cras facilisis fermentum ex seda ullamcorper odio rutrum accoun Phasellus auctor",
+      "icon": "worldwide",
+      "cardClass": ""
+    },
+    {
+      "id": 2,
+      "title": "Competitive Pricing",
+      "description": "Burabitur convallis enim atnora ullamcorper sagittis. Morbi nug scelerisque for thana.",
+      "icon": "pricing",
+      "cardClass": "two"
+    },
+    {
+      "id": 3,
+      "title": "Fast Booking",
+      "description": "Fermentum eitorx quis maximum Etiam luctus erat vulputate urnan posuere convallis.",
+      "icon": "fastBooking",
+      "cardClass": "three"
+    },
+    {
+      "id": 4,
+      "title": "Guided Tours",
+      "description": "Pellentesque venenatis egestasoi diam Proin velgorat elit porttitor metus convallis.",
+      "icon": "guidedTours",
+      "cardClass": "three"
+    },
+    {
+      "id": 5,
+      "title": "Best Support 24/7",
+      "description": "Sed venenatis mauris nec nulla euismod, accounv varius lectus viverra oncen.",
+      "icon": "support",
+      "cardClass": ""
+    },
+    {
+      "id": 6,
+      "title": "Experienced",
+      "description": "4+ Locations Across 2 countries, and 19 years of experience",
+      "icon": "flexibility",
+      "cardClass": "two"
+    }
+  ]
+}

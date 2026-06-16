@@ -1,0 +1,943 @@
+{
+  "globalVisa": [
+    {
+      "id": "g-1",
+      "slug": "oman-tourist-visa",
+      "title": "Oman Tourist Visa",
+      "country": "Oman",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/oman.png",
+      "img2": "/assets/images/Visa/global-visa/oman-2.png",
+      "type": "global",
+      "description": "Experience the beauty of Oman with our convenient E-Visa service. This tourist visa is ideal for short visits to explore the diverse landscapes, from desert dunes to the sparkling coast. Our streamlined process ensures you get your visa quickly, often on the same day.",
+      "requiredDocuments": [
+        "Passport Scan Copy: Clearly scanned Passport copy required. Minimum of 6 months validity.",
+        "Photo Specification: Passport Size Photo with White Background (clear scanned Copy required).",
+        "National ID: A clear copy of your national identity card."
+      ],
+      "faqs": [
+        {
+          "id": "oman-1",
+          "question": "Can I extend my Oman Tourist Visa?",
+          "answer": "Yes, many Omani tourist visas can be extended online. Please contact our support team for assistance with extensions."
+        },
+        {
+          "id": "oman-2",
+          "question": "Is the visa fee refundable?",
+          "answer": "Visa fees are typically non-refundable once the application is submitted to the embassy."
+        }
+      ]
+    },
+    {
+      "id": "g-2",
+      "slug": "qatar-tourist-visa",
+      "title": "Qatar Tourist Visa",
+      "country": "Qatar",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/qatar.png",
+      "img2": "/assets/images/Visa/global-visa/qatar-2.png",
+      "type": "global",
+      "description": "Explore the modern marvels of Doha and the heritage of Qatar with our fast-track E-Visa services. The Qatar Tourist Visa is perfect for single entry visits for tourism, family visits, or attending events. We ensure a smooth application process with minimum documentation.",
+      "requiredDocuments": [
+        "Passport Scan: Front and back pages (min 6 months validity).",
+        "Photograph: Recent passport-size color photo.",
+        "Flight Tickets: Confirmed arrival and departure tickets.",
+        "Hotel Booking: Confirmed stay details in Qatar."
+      ],
+      "faqs": [
+        {
+          "id": "qatar-1",
+          "question": "Does Qatar offer visa-on-arrival?",
+          "answer": "Many nationalities are eligible for visa-on-arrival, but the E-Visa is recommended for a guaranteed entry process before travel."
+        },
+        {
+          "id": "qatar-2",
+          "question": "Can I extend my Qatar tourist visa?",
+          "answer": "Yes, some tourist visas can be extended for an additional month through the Ministry of Interior online portal."
+        },
+        {
+          "id": "qatar-3",
+          "question": "Is insurance needed for Qatar?",
+          "answer": "Since February 2023, health insurance from a registered Qatari provider is mandatory for visitors."
+        },
+        {
+          "id": "qatar-4",
+          "question": "How long can I stay in Qatar?",
+          "answer": "The standard tourist visa allows stays of up to 30 days."
+        },
+        {
+          "id": "qatar-5",
+          "question": "What is the processing time?",
+          "answer": "We typically process Qatar E-Visas on the same day or within 24 hours."
+        }
+      ]
+    },
+    {
+      "id": "g-3",
+      "slug": "bahrain-tourist-visa",
+      "title": "Bahrain Tourist Visa",
+      "country": "Bahrain",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "2-Weeks, 30-Days, 01 Year",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/bahrain.png",
+      "img2": "/assets/images/Visa/global-visa/bahrain-2.png",
+      "type": "global",
+      "description": "Bahrain is open and welcoming to tourists looking for cultural richness and business opportunities. Our Bahrain E-Visa covers single entry and multiple entry options depending on your travel duration and needs.",
+      "requiredDocuments": [
+        "Passport Scan: Front page (min 6 months validity).",
+        "Photograph: White background.",
+        "Flight Reservation: Confirmed tickets.",
+        "Sufficient Funds: Proof of financial stability for the stay."
+      ],
+      "faqs": [
+        {
+          "id": "bh-1",
+          "question": "Is Bahrain visa-on-arrival available for GCC residents?",
+          "answer": "GCC residents often qualify for easy entry, but checking the specific electronic visa status is recommended."
+        },
+        {
+          "id": "bh-2",
+          "question": "What are the entry types?",
+          "answer": "We offer 2-week single entry, 30-day single entry, and 1-year multiple entry visas."
+        },
+        {
+          "id": "bh-3",
+          "question": "Do I need a physical stamp?",
+          "answer": "No, the Bahrain E-Visa is an electronic approval that you print and bring to the airport."
+        },
+        {
+          "id": "bh-4",
+          "question": "How fast is the same day service?",
+          "answer": "Applications submitted before noon are often processed by the same business day."
+        },
+        {
+          "id": "bh-5",
+          "question": "Can children apply?",
+          "answer": "Yes, children require their own individual visa applications."
+        }
+      ]
+    },
+    {
+      "id": "g-4",
+      "slug": "kuwait-tourist-visa",
+      "title": "Kuwait Tourist Visa",
+      "country": "Kuwait",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/kuwait.png",
+      "img2": "/assets/images/Visa/global-visa/kuwait-2.png",
+      "type": "global",
+      "description": "Discover the heritage and hospitality of Kuwait with our simplified E-Visa process. The standard tourist visa is perfect for exploring the vibrant souks, modern skyline, and coastal beauties of this Gulf gem.",
+      "requiredDocuments": [
+        "Passport Scan: Front page with at least 6 months validity.",
+        "Photograph: High resolution digital photo.",
+        "Civil ID: Copy of sponsor's ID if visiting family."
+      ],
+      "faqs": [
+        {
+          "id": "kw-1",
+          "question": "Can I get a visa on arrival in Kuwait?",
+          "answer": "Certain nationalities and GCC residents can, but the E-Visa is recommended for pre-cleared entry."
+        },
+        {
+          "id": "kw-2",
+          "question": "Are there restricted days for processing?",
+          "answer": "Kuwaiti government offices are closed on Fridays and Saturdays; however, E-Visa portals are generally open for submission anytime."
+        },
+        {
+          "id": "kw-3",
+          "question": "How long can I stay?",
+          "answer": "The tourist E-Visa usually allows a stay of up to 3 months, though it's typically issued for 30 days initial stay."
+        },
+        {
+          "id": "kw-4",
+          "question": "Is insurance needed?",
+          "answer": "It is not strictly mandatory for all, but highly recommended."
+        },
+        {
+          "id": "kw-5",
+          "question": "Can I extend it?",
+          "answer": "Extensions are possible but require visiting the immigration department in Kuwait."
+        }
+      ]
+    },
+    {
+      "id": "g-5",
+      "slug": "srilanka-visa",
+      "title": "Sri Lanka Tourist & Business Visa",
+      "country": "Sri Lanka",
+      "visaType": "Tourist & Business",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "Tourist Double Entry",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/sri-lanka-tourist-business-visa.png",
+      "img2": "/assets/images/Visa/global-visa/sri-lanka-tourist-business-visa-2.png",
+      "type": "global",
+      "description": "Sri Lanka offers a beautiful mix of beaches and mountains. Our ETA (Electronic Travel Authorization) service covers both holiday and short-term business visits, ensuring you can travel with peace of mind.",
+      "requiredDocuments": [
+        "Passport: Valid for at least 6 months.",
+        "Travel Details: Flight numbers and dates.",
+        "Accommodation: Proposed hotel address."
+      ],
+      "faqs": [
+        {
+          "id": "sl-1",
+          "question": "What is an ETA?",
+          "answer": "ETA stands for Electronic Travel Authorization, which is the official visa for tourists entering Sri Lanka."
+        },
+        {
+          "id": "sl-2",
+          "question": "How many times can I enter?",
+          "answer": "The Tourist ETA typically allows double entry within a 30-day period."
+        },
+        {
+          "id": "sl-3",
+          "question": "Do I need to visit an embassy?",
+          "answer": "No, the Sri Lanka ETA is entirely electronic."
+        },
+        {
+          "id": "sl-4",
+          "question": "Is it valid for business events?",
+          "answer": "Yes, we offer a specific Business ETA for attending conferences, meetings, or training."
+        },
+        {
+          "id": "sl-5",
+          "question": "How soon should I apply?",
+          "answer": "We recommend applying at least 48 hours before your flight, though same-day processing is often available."
+        }
+      ]
+    },
+    {
+      "id": "g-6",
+      "slug": "malaysia-tourist-visa",
+      "title": "Malaysia Tourist Visa",
+      "country": "Malaysia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/malaysia.png",
+      "img2": "/assets/images/Visa/global-visa/malaysia-2.png",
+      "type": "global",
+      "description": "From the bustling streets of Kuala Lumpur to the rainforests of Borneo, Malaysia is a top destination for every traveler. Our E-Visa service simplifies your entry into this Southeast Asian paradise.",
+      "requiredDocuments": [
+        "Passport: Clear scan of biological page.",
+        "Photo: Passport-sized digital photo.",
+        "Flight/Hotel: Confirmed bookings.",
+        "National ID: Front and back scan."
+      ],
+      "faqs": [
+        {
+          "id": "my-1",
+          "question": "Can I apply while in Malaysia?",
+          "answer": "No, you must be outside of Malaysia to apply for the tourist E-Visa."
+        },
+        {
+          "id": "my-2",
+          "question": "Is the visa valid for all entry points?",
+          "answer": "Yes, it is valid for all major international airports and land border crossings."
+        },
+        {
+          "id": "my-3",
+          "question": "How long is the processing time?",
+          "answer": "We usually provide approval within 1-3 working days."
+        },
+        {
+          "id": "my-4",
+          "question": "Can I stay longer than 30 days?",
+          "answer": "The standard E-Visa allows for a 30-day stay and is usually non-extendable."
+        },
+        {
+          "id": "my-5",
+          "question": "Do I need to print the E-Visa?",
+          "answer": "Yes, it is mandatory to bring a printed Copy of your approved E-Visa for immigration."
+        }
+      ]
+    },
+    {
+      "id": "g-7",
+      "slug": "singapore-tourist-visa",
+      "title": "Singapore Tourist Visa",
+      "country": "Singapore",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/singapore.png",
+      "img2": "/assets/images/Visa/global-visa/singapore-2.png",
+      "type": "global",
+      "description": "Explore the Lion City with ease. Singapore's efficient visa system allows for quick approvals, letting you focus on your travel plans to this world-class destination.",
+      "requiredDocuments": [
+        "Passport: Standard scan.",
+        "Photo: Recent, white background.",
+        "Form 14A: Completed application form."
+      ],
+      "faqs": [
+        {
+          "id": "sg-1",
+          "question": "What is the SG Arrival Card?",
+          "answer": "The SG Arrival Card is a health and arrival declaration that must be submitted online before you arrive, separately from your visa."
+        },
+        {
+          "id": "sg-2",
+          "question": "Is the visa multiple entry?",
+          "answer": "Singapore visas are often issued as multiple entry for a specific period (like 9 weeks or 1 year) depending on the embassy's decision."
+        },
+        {
+          "id": "sg-3",
+          "question": "How fast is processing?",
+          "answer": "We typically get approvals within 3-5 working days."
+        },
+        {
+          "id": "sg-4",
+          "question": "Can I visit Singapore without a visa?",
+          "answer": "Some nationalities are visa-exempt; please contact us to check your country's status."
+        },
+        {
+          "id": "sg-5",
+          "question": "Is bank balance required?",
+          "answer": "It is not always mandatory, but proof of funds can help ensure a smooth approval."
+        }
+      ]
+    },
+    {
+      "id": "g-8",
+      "slug": "vietnam-tourist-visa",
+      "title": "Vietnam Tourist Visa",
+      "country": "Vietnam",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "90 Days Single & Multiple Entry",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/vietnam-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/vietnam-tourist-visa-2.png"
+    },
+    {
+      "id": "g-9",
+      "slug": "morocco-tourist-visa",
+      "title": "Morocco Tourist Visa",
+      "country": "Morocco",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days Standard & Express",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/morocco.png",
+      "img2": "/assets/images/Visa/global-visa/morocco-2.png",
+      "type": "global"
+    },
+    {
+      "id": "g-10",
+      "slug": "azerbaijan-tourist-visa",
+      "title": "Azerbaijan Tourist Visa",
+      "country": "Azerbaijan",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days Normal & Urgent",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/azerbaijan-tourist-visa.png",
+      "img2": "/assets/images/Visa/global-visa/azerbaijan-tourist-visa-2.png",
+      "type": "global"
+    },
+    {
+      "id": "g-11",
+      "slug": "uzbekistan-tourist-visa",
+      "title": "Uzbekistan Tourist Visa",
+      "country": "Uzbekistan",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days Single, Double and Multiple Entry",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/uzbekistan-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/uzbekistan-tourist-visa-2.png"
+    },
+    {
+      "id": "g-12",
+      "slug": "japan-tourist-visa",
+      "title": "Japan Tourist Visa",
+      "country": "Japan",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/japan-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/japan-tourist-visa-2.png"
+    },
+    {
+      "id": "g-13",
+      "slug": "cambodia-tourist-visa",
+      "title": "Cambodia Tourist Visa",
+      "country": "Cambodia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/cambodia-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/cambodia-tourist-visa-2.png"
+    },
+    {
+      "id": "g-14",
+      "slug": "indonesia-tourist-visa",
+      "title": "Indonesia Tourist Visa",
+      "country": "Indonesia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "60 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/indonesia-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/indonesia-tourist-visa-2.png"
+    },
+    {
+      "id": "g-15",
+      "slug": "albania-tourist-visa",
+      "title": "Albania Tourist Visa",
+      "country": "Albania",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/albania-tourist-visa.png",
+      "img2": "/assets/images/Visa/global-visa/albania-tourist-visa-2.png",
+      "type": "global"
+    },
+    {
+      "id": "g-16",
+      "slug": "kenya-tourist-visa",
+      "title": "Kenya Tourist Visa",
+      "country": "Kenya",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/kenya-tourist-visa.png",
+      "img2": "/assets/images/Visa/global-visa/kenya-tourist-visa-2.png",
+      "type": "global"
+    },
+    {
+      "id": "g-17",
+      "slug": "ethiopia-tourist-visa",
+      "title": "Ethiopia Tourist Visa",
+      "country": "Ethiopia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 & 90 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/ethiopia-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/ethiopia-tourist-visa-2.png"
+    },
+    {
+      "id": "g-18",
+      "slug": "uganda-tourist-visa",
+      "title": "Uganda Tourist Visa",
+      "country": "Uganda",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/uganda-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/uganda-tourist-visa-2.png"
+    },
+    {
+      "id": "g-19",
+      "slug": "jordan-tourist-visa",
+      "title": "Jordan Tourist Visa",
+      "country": "Jordan",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "90 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/img/home4/package-card4-img1.jpg",
+      "type": "global"
+    },
+    {
+      "id": "g-20",
+      "slug": "madagascar-tourist-visa",
+      "title": "Madagascar Tourist Visa",
+      "country": "Madagascar",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "15, 30 & 60 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/madagascar-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/madagascar-tourist-visa-2.png"
+    },
+    {
+      "id": "g-21",
+      "slug": "turkey-tourist-visa",
+      "title": "Turkey Tourist Visa",
+      "country": "Turkey",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/turkey-tourist-visa.png",
+      "img2": "/assets/images/Visa/global-visa/turkey-tourist-visatourist-visa.png",
+      "type": "global"
+    },
+    {
+      "id": "g-22",
+      "slug": "thailand-tourist-visa",
+      "title": "Thailand Tourist Visa",
+      "country": "Thailand",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/thailand-tourist-visa.png",
+      "img2": "/assets/images/Visa/global-visa/thailand-tourist-visa-2.png",
+      "type": "global"
+    },
+    {
+      "id": "g-23",
+      "slug": "india-tourist-visa",
+      "title": "India Tourist Visa",
+      "country": "India",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/india-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/india-tourist-visa-2.png"
+    },
+    {
+      "id": "g-24",
+      "slug": "pakistan-tourist-visa",
+      "title": "Pakistan Tourist Visa",
+      "country": "Pakistan",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/global-visa/pakistan-tourist-visa.png",
+      "type": "global",
+      "img2": "/assets/images/Visa/global-visa/pakistan-tourist-visa-2.png"
+    },
+    {
+      "id": "g-25",
+      "slug": "armenia-tourist-visa",
+      "title": "Armenia Tourist Visa",
+      "country": "Armenia",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "21 & 120 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/img/home4/package-card4-img1.jpg",
+      "type": "global"
+    }
+  ],
+  "uaeVisa": [
+    {
+      "id": "u-1",
+      "slug": "uae-30-day-tourist-visa",
+      "title": "30-Day Tourist Visa",
+      "country": "UAE",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-30-days.png",
+      "type": "uae",
+      "description": "Visit the highlights of Dubai and Abu Dhabi with a standard 30-day tourist visa. Perfect for a vacation or short business trip. This visa is single entry and allows you to stay for up to 30 days from the date of entry.",
+      "requiredDocuments": [
+        "Passport Scan: Front and back pages (min 6 months validity).",
+        "Photograph: White background, recent high-quality scan.",
+        "Flight Tickets: Both on-ward and return confirmed tickets."
+      ],
+      "faqs": [
+        {
+          "id": "uae30-1",
+          "question": "Is insurance included in the 30-day visa?",
+          "answer": "Most of our UAE visa packages include mandatory health insurance as per current regulations."
+        },
+        {
+          "id": "uae30-2",
+          "question": "Can I extend my stay?",
+          "answer": "Yes, you can apply for an extension for another 30 days while inside the country."
+        },
+        {
+          "id": "uae30-3",
+          "question": "Are there any hidden costs?",
+          "answer": "Our prices are transparent; the fee includes service charges and mandatory insurance."
+        },
+        {
+          "id": "uae30-4",
+          "question": "Do I need to visit an embassy?",
+          "answer": "No, the entire process is completed online through our portal."
+        },
+        {
+          "id": "uae30-5",
+          "question": "What is the processing time?",
+          "answer": "Typically processed within 24-48 business hours."
+        }
+      ],
+      "img2": "/assets/images/Visa/uae-visa/uae-30-days-2.png"
+    },
+    {
+      "id": "u-2",
+      "slug": "uae-60-day-tourist-visa",
+      "title": "60-Day Tourist Visa",
+      "country": "UAE",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "60 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-60-days.png",
+      "type": "uae",
+      "description": "Ideal for long-term visits, the UAE 60-day visa allows you to stay with family and friends or explore the Emirates at your own pace. It provides single-entry access and is one of the most popular choices for extended vacations.",
+      "requiredDocuments": [
+        "Passport Scan: Color copy (min 6 months validity).",
+        "Recent Photo: White background.",
+        "Personal ID: Proof of residence in home country."
+      ],
+      "faqs": [
+        {
+          "id": "uae60-1",
+          "question": "Is the 60-day visa extendable?",
+          "answer": "Yes, you can extend it for another 30 days twice without leaving the country."
+        },
+        {
+          "id": "uae60-2",
+          "question": "Does it include insurance?",
+          "answer": "Yes, standard 60-day visa packages include the required health insurance."
+        },
+        {
+          "id": "uae60-3",
+          "question": "How long is the visa valid for entry?",
+          "answer": "Once issued, you must enter the UAE within 60 days."
+        },
+        {
+          "id": "uae60-4",
+          "question": "What if my passport expires in 5 months?",
+          "answer": "UAE immigration requires at least 6 months validity from the day you enter."
+        },
+        {
+          "id": "uae60-5",
+          "question": "Can I work on this visa?",
+          "answer": "No, this is strictly for tourism. Working on a tourist visa is illegal in the UAE."
+        }
+      ],
+      "img2": "/assets/images/Visa/uae-visa/uae-60-days-2.png"
+    },
+    {
+      "id": "u-3",
+      "slug": "uae-30-day-family-tourist-visa",
+      "title": "30-Day Family Tourist Visa",
+      "country": "UAE",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "30 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-family-30-days.png",
+      "img2": "/assets/images/Visa/uae-visa/uae-family-30-days-2.png",
+      "type": "uae",
+      "description": "Travel with your loved ones to the UAE with our 30-day family visa package. This visa is designed for families traveling together, offering a streamlined application process and competitive pricing for group bookings.",
+      "requiredDocuments": [
+        "Passports: Scans of all family members.",
+        "Photos: White background photos for everyone.",
+        "Birth Certificates: For children under 18.",
+        "Marriage Certificate: If applicable for spouse."
+      ],
+      "faqs": [
+        {
+          "id": "uaef-1",
+          "question": "Do newborns need a separate visa?",
+          "answer": "Yes, every individual, including infants, must have their own visa."
+        },
+        {
+          "id": "uaef-2",
+          "question": "Can I apply for my parents on this visa?",
+          "answer": "Yes, you can include your parents in the family group application."
+        },
+        {
+          "id": "uaef-3",
+          "question": "Is the price lower for families?",
+          "answer": "We often offer special discounts for groups of 4 or more family members."
+        },
+        {
+          "id": "uaef-4",
+          "question": "Do we have to enter the country together?",
+          "answer": "Yes, family visas typically require the group to enter and exit at the same time if linked."
+        },
+        {
+          "id": "uaef-5",
+          "question": "What is the stay limit?",
+          "answer": "The stay limit is 30 days from the date of entry."
+        }
+      ]
+    },
+    {
+      "id": "u-4",
+      "slug": "uae-60-day-family-tourist-visa",
+      "title": "60-Day Family Tourist Visa",
+      "country": "UAE",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "60 Days",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-family-60-days.png",
+      "img2": "/assets/images/Visa/uae-visa/uae-family-60-days-2.png",
+      "type": "uae",
+      "description": "The perfect choice for families planning an extended stay in the UAE. Whether it's visiting relatives or a grand tour of all seven Emirates, this 60-day visa provides ample time for a memorable family adventure.",
+      "requiredDocuments": [
+        "Passports: High quality color scans.",
+        "Photos: Recent digital studio photos.",
+        "Relationship Proof: Marriage or birth certificates (copies)."
+      ],
+      "faqs": [
+        {
+          "id": "uaef60-1",
+          "question": "Can I change this to a residency visa later?",
+          "answer": "While inside the country, you can initiate a status change to residency if you find employment or investment opportunities."
+        },
+        {
+          "id": "uaef60-2",
+          "question": "Is insurance provided for the whole family?",
+          "answer": "Yes, our 60-day family package includes insurance for all applicants."
+        },
+        {
+          "id": "uaef60-3",
+          "question": "What is the processing time for a family?",
+          "answer": "It takes the same time as an individual visa (typically same day or 24h)."
+        },
+        {
+          "id": "uaef60-4",
+          "question": "Are there any age restrictions for children?",
+          "answer": "No, children of all ages are welcome on this visa type."
+        },
+        {
+          "id": "uaef60-5",
+          "question": "Is it multiple entry?",
+          "answer": "Usually, these are single entry. Multiple entry family visas are available separately."
+        }
+      ]
+    },
+    {
+      "id": "u-5",
+      "slug": "uae-transit-visa",
+      "title": "48 & 96 Hours Transit Visa",
+      "country": "UAE",
+      "visaType": "Tourist",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "48 & 96 hours",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-96-48.png",
+      "type": "uae",
+      "description": "Making a stopover in Dubai? Don't spend it in the airport. Our 48 and 96-hour transit visas are processed in record time, allowing you to quickly explore the city before your next flight.",
+      "requiredDocuments": [
+        "Passport Scan: Front page.",
+        "Photo: Recent scan.",
+        "Onward Ticket: Confirmed flight to a third destination."
+      ],
+      "faqs": [
+        {
+          "id": "uaet-1",
+          "question": "Is the 48-hour visa free?",
+          "answer": "Some airlines offer free transit visas, but they often have high service fees. Our process is transparent and fast."
+        },
+        {
+          "id": "uaet-2",
+          "question": "Can I extend a transit visa?",
+          "answer": "No, transit visas (48/96 hours) are non-extendable."
+        },
+        {
+          "id": "uaet-3",
+          "question": "Do I need a hotel booking?",
+          "answer": "It is not mandatory for the transit visa, but recommended if your layover is overnight."
+        },
+        {
+          "id": "uaet-4",
+          "question": "What is the maximum stay?",
+          "answer": "Exactly 48 or 96 hours from the time of entry."
+        },
+        {
+          "id": "uaet-5",
+          "question": "How fast do I get it?",
+          "answer": "Transit visas are usually issued within 12-24 hours."
+        }
+      ],
+      "img2": "/assets/images/Visa/uae-visa/uae-96-48-2.png"
+    },
+    {
+      "id": "u-6",
+      "slug": "uae-5-year-multiple-entry-visit-visa",
+      "title": "5-Year Multiple Entry Visit Visa",
+      "country": "UAE",
+      "visaType": "Tourist Multiple Entry",
+      "visaMode": "Electronic (E-Visa)",
+      "validity": "5 Years (90 Days per single entry & 180 Days per year)",
+      "processingTime": "Same Day",
+      "price": "Contact Us",
+      "img": "/assets/images/Visa/uae-visa/uae-05-years-multiple-entry-visa.png",
+      "type": "uae",
+      "description": "The ultimate visa for frequent travelers and business professionals. The 5-Year Multiple Entry Visa allows you to enter the UAE as many times as you want, staying up to 90 days per visit. It offers unprecedented flexibility for those who call the UAE their second home.",
+      "requiredDocuments": [
+        "Passport Scan: Valid for at least 6 months.",
+        "Bank Statement: Minimum balance of $4,000 USD (or equivalent) for the last 6 months.",
+        "Medical Insurance: Valid in the UAE.",
+        "Photo: Recent high-quality digital scan."
+      ],
+      "faqs": [
+        {
+          "id": "uaem-1",
+          "question": "Can I stay for 180 days at once?",
+          "answer": "You can stay up to 90 days. An extension of another 90 days can be applied for while inside the country, maxing at 180 days per year."
+        },
+        {
+          "id": "uaem-2",
+          "question": "Is the $4000 balance mandatory?",
+          "answer": "Yes, UAE immigration requires proof of financial capability for this specific long-term visa."
+        },
+        {
+          "id": "uaem-3",
+          "question": "How much does it cost?",
+          "answer": "The 5-year multiple entry visa has a higher upfront cost but saves significantly on frequent re-applications."
+        },
+        {
+          "id": "uaem-4",
+          "question": "Do I need a sponsor?",
+          "answer": "No, this is a self-sponsored visa."
+        },
+        {
+          "id": "uaem-5",
+          "question": "What is the processing time?",
+          "answer": "It typically takes 5-7 working days for the final approval due to the banking review."
+        }
+      ],
+      "img2": "/assets/images/Visa/uae-visa/uae-05-years-multiple-entry-visa-2.png"
+    }
+  ],
+  "faqs": {
+    "globalVisa": [
+      {
+        "id": "global-1",
+        "question": "01. What is a Global Visa and which countries does it cover?",
+        "answer": "A Global Visa allows you to travel to multiple countries with a single visa application. Our Global Visa services cover popular destinations worldwide including Europe, Asia, Americas, and other regions. Each visa type has specific country coverage which is detailed in the visa description."
+      },
+      {
+        "id": "global-2",
+        "question": "02. How long does it take to process a Global Visa?",
+        "answer": "Processing times vary depending on the destination country and visa type. Typically, Global Visas take 7-10 working days for standard processing. Some countries may offer expedited processing for an additional fee. Exact processing times are mentioned in each visa package."
+      },
+      {
+        "id": "global-3",
+        "question": "03. What documents are required for Global Visa applications?",
+        "answer": "Common requirements include a valid passport (minimum 6 months validity), passport-sized photographs, completed application form, travel itinerary, proof of accommodation, bank statements, travel insurance, and invitation letters (if applicable). Specific requirements vary by destination."
+      },
+      {
+        "id": "global-4",
+        "question": "04. Can I apply for multiple countries with one Global Visa?",
+        "answer": "Some Global Visas, like Schengen visas, allow travel to multiple countries within a region. However, most visas are country-specific. Please check the visa description for multi-country coverage details. We can assist with applications for multiple countries if needed."
+      },
+      {
+        "id": "global-5",
+        "question": "05. What is the validity period of Global Visas?",
+        "answer": "Validity periods vary by visa type and destination country. Tourist visas typically range from 30 to 90 days, while business visas may have longer validity. The exact validity period is specified in each visa package description."
+      },
+      {
+        "id": "global-6",
+        "question": "06. Do I need travel insurance for Global Visa applications?",
+        "answer": "Yes, most countries require travel insurance as part of the visa application process. The insurance must meet specific coverage requirements (usually minimum coverage amounts). We can assist you in obtaining the appropriate travel insurance for your destination."
+      },
+      {
+        "id": "global-7",
+        "question": "07. Can I extend my Global Visa after arrival?",
+        "answer": "Visa extension policies vary by country. Some countries allow extensions, while others require you to leave and reapply. Extension eligibility depends on visa type, country regulations, and your specific circumstances. We recommend checking extension policies before travel."
+      },
+      {
+        "id": "global-8",
+        "question": "08. What happens if my Global Visa application is rejected?",
+        "answer": "If your visa is rejected, we will provide you with the rejection reasons. You may be able to reapply after addressing the issues, or appeal the decision depending on the country's policies. Refund policies vary - please check our terms and conditions for details."
+      }
+    ],
+    "uaeVisa": [
+      {
+        "id": "uae-1",
+        "question": "01. What types of UAE visas are available?",
+        "answer": "We offer various UAE visa types including Tourist Visa (30/60/90 days), Transit Visa (48 hours), Visit Visa, Business Visa, and Multiple Entry Visa. Each visa type has specific purposes, validity periods, and requirements. Choose the one that best fits your travel needs."
+      },
+      {
+        "id": "uae-2",
+        "question": "02. How long does UAE visa processing take?",
+        "answer": "UAE visa processing times vary by visa type. Transit visas typically take 1-2 working days, Tourist visas take 3-7 working days, and Visit/Business visas take 5-10 working days. Processing times are mentioned in each visa package description."
+      },
+      {
+        "id": "uae-3",
+        "question": "03. What documents do I need for UAE visa application?",
+        "answer": "Required documents include a valid passport (minimum 6 months validity), passport-sized photographs, completed application form, confirmed flight tickets, hotel booking confirmation, bank statements (last 3-6 months), and travel insurance. Additional documents may be required for business visas."
+      },
+      {
+        "id": "uae-4",
+        "question": "04. Can I extend my UAE visa?",
+        "answer": "Yes, UAE visas can often be extended, but this depends on the visa type and your current status. Tourist visas can typically be extended for an additional 30 days. Extension fees and processing times apply. We can assist with visa extension services."
+      },
+      {
+        "id": "uae-5",
+        "question": "05. Do I need a sponsor for UAE visa?",
+        "answer": "Tourist visas usually don't require a sponsor if you have hotel bookings. However, Visit Visas and some other visa types may require a sponsor (family member, friend, or company in UAE). Business visas typically require a company sponsor in the UAE."
+      },
+      {
+        "id": "uae-6",
+        "question": "06. What is the difference between UAE Tourist Visa and Visit Visa?",
+        "answer": "Tourist Visa is for short-term tourism purposes (typically 30-90 days) and doesn't require a sponsor if you have hotel bookings. Visit Visa is for visiting family/friends, usually requires a sponsor, and can have longer validity periods. Both are suitable for different travel purposes."
+      },
+      {
+        "id": "uae-7",
+        "question": "07. Can I enter UAE multiple times with one visa?",
+        "answer": "Regular tourist and visit visas are typically single-entry. However, we offer Multiple Entry Visas that allow you to enter and exit the UAE multiple times within the visa validity period. This is ideal for frequent travelers or business purposes."
+      },
+      {
+        "id": "uae-8",
+        "question": "08. What should I do if my UAE visa is about to expire?",
+        "answer": "If your visa is expiring soon, you have options: extend your visa (if eligible), leave the UAE before expiration, or apply for a new visa. Overstaying can result in fines and future entry restrictions. We recommend planning ahead and contacting us for extension or renewal assistance."
+      }
+    ]
+  }
+}

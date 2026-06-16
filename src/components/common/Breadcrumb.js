@@ -1,0 +1,34 @@
+import Link from "next/link";
+import React from "react";
+
+const Breadcrumb = ({ pagename, pagetitle, bgImage }) => {
+  const backgroundUrl = bgImage || "/assets/img/innerpage/inner-banner-bg.png";
+
+  return (
+    <div
+      className="breadcrumb-section"
+      style={{
+        backgroundImage:
+          `linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.3) 101.02%), url(${backgroundUrl})`,
+      }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 d-flex justify-content-center">
+            <div className="banner-content pt-120 pb-120">
+              <h1>{pagename}</h1>
+              <ul className="breadcrumb-list">
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>{pagetitle}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Breadcrumb;
