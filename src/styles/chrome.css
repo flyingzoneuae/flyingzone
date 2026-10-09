@@ -1,0 +1,673 @@
+/* ==========================================================================
+   Flying Zone — shared "chrome": design tokens, buttons, header, footer,
+   WhatsApp bar. Loaded on every page (new and legacy), so every rule is
+   scoped to .fz-* and sets its own typography to stay independent of the
+   legacy template/Bootstrap CSS.
+   ========================================================================== */
+
+:root {
+  --fz-blue: #2454b8;
+  --fz-deep: #163a82;
+  --fz-navy: #0f2759;
+  --fz-cyan: #00afc7;
+  --fz-green: #009b62;
+  --fz-green-dark: #00804f;
+  --fz-red: #d91e2b;
+  --fz-ink: #172033;
+  --fz-muted: #556077;
+  --fz-line: #e2e8f2;
+  --fz-bg: #f7f9fc;
+  --fz-soft: #eef5ff;
+  --fz-white: #fff;
+  --fz-radius: 14px;
+  --fz-radius-sm: 10px;
+  --fz-shadow: 0 1px 2px rgba(23, 32, 51, 0.04), 0 8px 24px rgba(23, 32, 51, 0.06);
+  --fz-header-h: 68px;
+  --fz-font-body: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --fz-font-head: var(--font-manrope), var(--font-inter), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+}
+
+@media (min-width: 992px) {
+  :root {
+    --fz-header-h: 76px;
+  }
+}
+
+.fz-container {
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .fz-container {
+    padding-inline: 32px;
+  }
+}
+
+.fz-skip {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 2000;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: var(--fz-deep);
+  color: #fff;
+  font: 600 14px/1 var(--fz-font-body);
+  text-decoration: none;
+}
+
+.fz-skip:focus {
+  top: 12px;
+  color: #fff;
+}
+
+/* ---------- Buttons ---------- */
+
+.fz-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 22px;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font: 600 16px/1.2 var(--fz-font-body);
+  letter-spacing: 0;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.fz-btn svg {
+  flex: none;
+}
+
+.fz-btn:focus-visible,
+.fz-header a:focus-visible,
+.fz-header button:focus-visible,
+.fz-footer a:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: 2px;
+}
+
+.fz-btn--primary {
+  background: var(--fz-blue);
+  color: #fff;
+}
+
+.fz-btn--primary:hover {
+  background: var(--fz-deep);
+  color: #fff;
+}
+
+.fz-btn--outline {
+  background: #fff;
+  border-color: #c9d6ee;
+  color: var(--fz-deep);
+}
+
+.fz-btn--outline:hover {
+  border-color: var(--fz-blue);
+  background: var(--fz-soft);
+  color: var(--fz-deep);
+}
+
+.fz-btn--whatsapp {
+  background: var(--fz-green);
+  color: #fff;
+}
+
+.fz-btn--whatsapp:hover {
+  background: var(--fz-green-dark);
+  color: #fff;
+}
+
+.fz-btn--light {
+  background: #fff;
+  color: var(--fz-deep);
+}
+
+.fz-btn--light:hover {
+  background: var(--fz-soft);
+  color: var(--fz-deep);
+}
+
+.fz-btn--sm {
+  min-height: 42px;
+  padding: 9px 16px;
+  font-size: 15px;
+}
+
+.fz-btn--block {
+  width: 100%;
+}
+
+/* ---------- Header ---------- */
+
+.fz-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid var(--fz-line);
+  box-shadow: 0 1px 12px rgba(23, 32, 51, 0.04);
+  font-family: var(--fz-font-body);
+}
+
+.fz-header *,
+.fz-footer *,
+.fz-wabar * {
+  box-sizing: border-box;
+}
+
+.fz-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: var(--fz-header-h);
+}
+
+.fz-logo {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+}
+
+.fz-logo img {
+  display: block;
+  width: auto;
+  height: 46px;
+}
+
+@media (min-width: 992px) {
+  .fz-logo img {
+    height: 54px;
+  }
+}
+
+.fz-nav {
+  display: none;
+}
+
+.fz-nav__list,
+.fz-nav__sub,
+.fz-mobile__list,
+.fz-mobile__sub {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fz-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fz-header__wa-label--short {
+  display: inline;
+}
+
+.fz-header__wa-label--long {
+  display: none;
+}
+
+.fz-burger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1.5px solid var(--fz-line);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--fz-ink);
+  cursor: pointer;
+}
+
+@media (max-width: 359.98px) {
+  .fz-header .fz-btn--sm {
+    padding-inline: 12px;
+  }
+  .fz-logo img {
+    height: 40px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .fz-nav {
+    display: block;
+  }
+
+  .fz-burger {
+    display: none;
+  }
+
+  .fz-header__wa-label--short {
+    display: none;
+  }
+
+  .fz-header__wa-label--long {
+    display: inline;
+  }
+
+  .fz-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .fz-nav__item {
+    position: relative;
+  }
+
+  .fz-nav__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 13px;
+    border: 0;
+    border-radius: 8px;
+    background: none;
+    color: var(--fz-ink);
+    font: 500 15px/1.2 var(--fz-font-body);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s ease, background-color 0.15s ease;
+  }
+
+  .fz-nav__link:hover,
+  .fz-nav__item:focus-within > .fz-nav__link {
+    color: var(--fz-blue);
+    background: var(--fz-soft);
+  }
+
+  /* Umrah / Hajj is the primary service: slightly heavier label only. */
+  .fz-nav__link--primary {
+    font-weight: 600;
+  }
+
+  /* The current page (or the dropdown containing it) gets the cyan underline. */
+  .fz-nav__link[aria-current="page"],
+  .fz-nav__link.is-active {
+    color: var(--fz-deep);
+    background: var(--fz-soft);
+    box-shadow: inset 0 -2px 0 var(--fz-cyan);
+  }
+
+  .fz-nav__sub a[aria-current="page"] {
+    background: var(--fz-soft);
+    color: var(--fz-blue);
+  }
+
+  .fz-nav__sub {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 230px;
+    padding: 8px;
+    border: 1px solid var(--fz-line);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: var(--fz-shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  }
+
+  .fz-nav__item:hover > .fz-nav__sub,
+  .fz-nav__item:focus-within > .fz-nav__sub {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .fz-nav__sub a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: var(--fz-ink);
+    font: 500 15px/1.3 var(--fz-font-body);
+    text-decoration: none;
+  }
+
+  .fz-nav__sub a:hover {
+    background: var(--fz-soft);
+    color: var(--fz-blue);
+  }
+}
+
+/* Mobile drawer */
+
+.fz-mobile {
+  position: fixed;
+  inset: var(--fz-header-h) 0 0 0;
+  z-index: 999;
+  overflow-y: auto;
+  padding: 12px 20px 120px;
+  background: #fff;
+  font-family: var(--fz-font-body);
+}
+
+.fz-mobile[hidden] {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .fz-mobile {
+    display: none;
+  }
+}
+
+.fz-mobile__list > li {
+  border-bottom: 1px solid var(--fz-line);
+}
+
+.fz-mobile__link,
+.fz-mobile summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+  padding: 0 4px;
+  color: var(--fz-ink);
+  font: 600 17px/1.2 var(--fz-font-body);
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+}
+
+.fz-mobile summary::-webkit-details-marker {
+  display: none;
+}
+
+.fz-mobile details[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.fz-mobile__link[aria-current="page"],
+.fz-mobile summary.is-active,
+.fz-mobile__sub a[aria-current="page"] {
+  color: var(--fz-blue);
+}
+
+.fz-mobile__sub a[aria-current="page"] {
+  border-left-color: var(--fz-cyan);
+}
+
+.fz-mobile__tag {
+  margin-left: 10px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--fz-soft);
+  color: var(--fz-deep);
+  font: 600 12px/1 var(--fz-font-body);
+}
+
+.fz-mobile__sub {
+  padding: 0 4px 12px;
+}
+
+.fz-mobile__sub a {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding-left: 12px;
+  border-left: 2px solid var(--fz-line);
+  color: var(--fz-muted);
+  font: 500 16px/1.2 var(--fz-font-body);
+  text-decoration: none;
+}
+
+.fz-mobile__cta {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* ---------- Footer ---------- */
+
+.fz-footer {
+  background: var(--fz-navy);
+  color: #c7d3ea;
+  font: 400 15px/1.6 var(--fz-font-body);
+}
+
+.fz-footer a {
+  color: #c7d3ea;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.fz-footer a:hover {
+  color: #fff;
+}
+
+.fz-footer__top {
+  display: grid;
+  gap: 40px 32px;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 56px 40px;
+}
+
+.fz-footer__brand,
+.fz-footer__contact {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 768px) {
+  .fz-footer__top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fz-footer__contact {
+    grid-column: auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .fz-footer__top {
+    grid-template-columns: 1.5fr 0.8fr 0.9fr 0.9fr 1.4fr;
+    padding-block: 72px 48px;
+  }
+
+  .fz-footer__brand {
+    grid-column: auto;
+    padding-right: 24px;
+  }
+}
+
+.fz-footer__logo {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.fz-footer__logo img {
+  display: block;
+  width: auto;
+  height: 50px;
+}
+
+.fz-footer__about {
+  max-width: 38ch;
+  margin: 18px 0 0;
+  color: #c7d3ea;
+  font: 400 15px/1.65 var(--fz-font-body);
+}
+
+.fz-footer__title {
+  margin: 0 0 16px;
+  color: #fff;
+  font: 700 15px/1.3 var(--fz-font-head);
+  letter-spacing: 0.02em;
+}
+
+.fz-footer__list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fz-footer__list li {
+  margin: 0;
+}
+
+.fz-footer__contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.fz-footer__contact-item svg {
+  flex: none;
+  margin-top: 3px;
+  color: var(--fz-cyan);
+}
+
+.fz-footer__contact-item span {
+  display: block;
+}
+
+.fz-footer__socials {
+  display: flex;
+  gap: 10px;
+  margin: 22px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fz-footer__socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.fz-footer__socials a:hover {
+  border-color: var(--fz-cyan);
+  background: rgba(0, 175, 199, 0.14);
+}
+
+.fz-footer__pay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+  color: #9fb0d0;
+  font-size: 13px;
+}
+
+.fz-footer__pay-logo {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.fz-footer__pay-logo svg {
+  display: block;
+  width: auto;
+  height: 20px;
+}
+
+.fz-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding-block: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  color: #9fb0d0;
+  font-size: 14px;
+}
+
+.fz-footer__bottom p {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+/* Leave room for the fixed mobile contact bar. */
+@media (max-width: 767.98px) {
+  .fz-footer {
+    padding-bottom: 72px;
+  }
+}
+
+/* ---------- Sticky WhatsApp / call bar ---------- */
+
+.fz-wabar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 900;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 10px;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--fz-line);
+  background: rgba(255, 255, 255, 0.97);
+  font-family: var(--fz-font-body);
+}
+
+.fz-wabar .fz-btn {
+  min-height: 46px;
+  padding-inline: 10px;
+}
+
+.fz-wabar__fab-label {
+  display: inline;
+}
+
+@media (min-width: 768px) {
+  .fz-wabar {
+    left: auto;
+    right: 24px;
+    bottom: 24px;
+    display: block;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+
+  .fz-wabar__call {
+    display: none;
+  }
+
+  .fz-wabar .fz-btn--whatsapp {
+    min-height: 52px;
+    padding-inline: 18px;
+    border-radius: 999px;
+    box-shadow: 0 8px 24px rgba(0, 155, 98, 0.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fz-btn,
+  .fz-nav__sub,
+  .fz-nav__link {
+    transition: none;
+  }
+}

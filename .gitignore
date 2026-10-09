@@ -210,3 +210,6 @@ $RECYCLE.BIN/
 # ===========================
 .eslintcache
 .stylelintcache
+
+# local backup of the pre-redesign source (already in git history)
+/_original_src_backup/

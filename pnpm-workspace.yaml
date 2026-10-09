@@ -1,0 +1,6 @@
+# These packages only run cosmetic/optional install scripts. Declaring them
+# here lets pnpm 11 run "pnpm dev" / "pnpm build" without an approve-builds prompt.
+allowBuilds:
+  core-js: false
+  swiper: false
+  unrs-resolver: false
