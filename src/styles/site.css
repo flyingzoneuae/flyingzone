@@ -2045,3 +2045,15 @@ body.fz-site {
     padding: 32px 36px;
   }
 }
+
+.fz-review__sample {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #fff4d6;
+  color: #7a5200;
+  font: 700 12px/1.2 var(--fz-font-body);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}

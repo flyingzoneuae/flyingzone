@@ -27,7 +27,7 @@ import {
   whyChoose,
 } from "@/data/umrahContent";
 import { APP_SETTINGS, telHref, whatsappHref } from "@/constants/app-setting";
-import { GOOGLE_LISTING_URL, GOOGLE_WRITE_REVIEW_URL, googleRating, googleReviews } from "@/data/googleReviews";
+import { GOOGLE_LISTING_URL, GOOGLE_WRITE_REVIEW_URL, googleRating, googleReviews, sampleReviews } from "@/data/googleReviews";
 
 const SERVICE_ICONS = {
   visa: FileCheck2,
@@ -272,6 +272,9 @@ const Stars = ({ rating }) => (
  */
 export const Testimonials = () => {
   const writeUrl = GOOGLE_WRITE_REVIEW_URL || GOOGLE_LISTING_URL;
+  // Labelled layout samples appear only in local development, never on the live site.
+  const isSample = googleReviews.length === 0 && process.env.NODE_ENV === "development";
+  const reviews = isSample ? sampleReviews : googleReviews;
   return (
     <>
       <SectionHead
@@ -280,11 +283,12 @@ export const Testimonials = () => {
         id="testimonials-title"
         text="Read what travellers say about Flying Zone on Google, or share your own experience."
       />
-      {googleReviews.length > 0 && (
+      {reviews.length > 0 && (
         <ul className="fz-reviews">
-          {googleReviews.map((review) => (
-            <li key={review.name + review.date} data-reveal>
+          {reviews.map((review, i) => (
+            <li key={review.name + review.date + i} data-reveal>
               <figure className="fz-review">
+                {isSample && <span className="fz-review__sample">Sample — not a real review</span>}
                 <div className="fz-review__top">
                   <Stars rating={review.rating} />
                   <GoogleLogo size={18} />
