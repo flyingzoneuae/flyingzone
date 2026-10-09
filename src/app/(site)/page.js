@@ -352,7 +352,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials (real reviews only) */}
-      <section className="fz-section fz-section--soft" aria-labelledby="testimonials-title">
+      <section className="fz-section fz-section--reviews" aria-labelledby="testimonials-title">
         <div className="fz-container">
           <Testimonials />
         </div>

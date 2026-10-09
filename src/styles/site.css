@@ -2061,3 +2061,364 @@ body.fz-site {
 .fz-review blockquote {
   white-space: pre-line;
 }
+
+/* ==========================================================================
+   Google Reviews (components/site/GoogleReviews.jsx): navy rating panel +
+   review slider.
+   ========================================================================== */
+
+.fz-section--reviews {
+  background: linear-gradient(180deg, #f7f9fc 0%, #eef3fb 100%);
+}
+
+.fz-gr {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+@media (min-width: 1100px) {
+  .fz-gr {
+    grid-template-columns: 400px minmax(0, 1fr);
+    gap: 40px;
+    align-items: stretch;
+  }
+}
+
+/* ---- Rating panel ---- */
+
+.fz-gr-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 32px 24px;
+  border-radius: 24px;
+  background: linear-gradient(155deg, #0f2759 0%, #163a82 62%, #1e4aa3 100%);
+  box-shadow: 0 30px 60px -30px rgba(15, 39, 89, 0.65);
+  color: #fff;
+}
+
+/* soft gold glow + hairline, the only gold in the section besides the stars */
+.fz-gr-panel::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(226, 196, 143, 0.28), transparent 68%);
+  pointer-events: none;
+}
+
+.fz-gr-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #e2c48f 30%, #e2c48f 70%, transparent);
+}
+
+.fz-gr-panel > * {
+  position: relative;
+}
+
+.fz-gr-panel__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px !important;
+  padding: 8px 14px 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  font: 600 13px/1 var(--fz-font-body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.fz-gr-panel__eyebrow svg {
+  padding: 2px;
+  border-radius: 50%;
+  background: #fff;
+  box-sizing: content-box;
+}
+
+.fz-site .fz-gr-panel h2 {
+  color: #fff;
+  font-size: clamp(1.875rem, 3.4vw, 2.5rem);
+  line-height: 1.12;
+}
+
+.fz-gr-panel__score {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 26px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.fz-gr-panel__score b {
+  font: 800 4.25rem/0.9 var(--fz-font-head);
+  letter-spacing: -0.04em;
+}
+
+.fz-gr-panel__score div {
+  display: grid;
+  gap: 8px;
+}
+
+.fz-gr-panel__score span span,
+.fz-gr-panel__score div > span:last-child {
+  color: #c9d6ef;
+  font-size: 0.9375rem;
+}
+
+.fz-gr-panel__text {
+  margin-top: 22px !important;
+  color: #c9d6ef;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.fz-gr-panel__actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.fz-gr-btn-ghost {
+  border-color: rgba(255, 255, 255, 0.35);
+  background: transparent;
+  color: #fff;
+}
+
+.fz-gr-btn-ghost:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+@media (min-width: 520px) and (max-width: 1099.98px) {
+  .fz-gr-panel__actions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .fz-gr-panel {
+    padding: 44px 40px;
+  }
+}
+
+/* ---- Stars ---- */
+
+.fz-gr-stars {
+  display: inline-flex;
+  gap: 3px;
+  color: rgba(160, 170, 190, 0.5);
+}
+
+.fz-gr-stars .is-on {
+  color: #f5b301;
+  fill: #f5b301;
+}
+
+/* ---- Slider ---- */
+
+.fz-gr-slider {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.fz-gr-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 86%;
+  align-items: start;
+  gap: 20px;
+  flex: 1;
+  margin: 0 -20px;
+  padding: 6px 20px 26px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 20px;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.fz-gr-track::-webkit-scrollbar {
+  display: none;
+}
+
+.fz-gr-track li {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 640px) {
+  .fz-gr-track {
+    grid-auto-columns: calc((100% - 20px) / 2);
+    margin: 0;
+    padding-inline: 4px;
+    scroll-padding-inline: 4px;
+  }
+}
+
+.fz-gr-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 28px 26px 24px;
+  border: 1px solid #e3eaf6;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(23, 32, 51, 0.04), 0 18px 36px -22px rgba(22, 58, 130, 0.28);
+}
+
+.fz-gr-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 14px;
+}
+
+.fz-gr-card__mark {
+  color: #dbe6f7;
+  font: 800 5rem/0.8 Georgia, "Times New Roman", serif;
+  user-select: none;
+}
+
+.fz-gr-card blockquote {
+  margin: 0;
+  color: var(--fz-ink);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  white-space: pre-line;
+}
+
+.fz-gr-card blockquote.is-clamped {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
+
+.fz-gr-card__more {
+  align-self: flex-start;
+  min-height: 36px;
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--fz-blue);
+  font: 600 0.9375rem/1 var(--fz-font-body);
+  cursor: pointer;
+}
+
+.fz-gr-card__more:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.fz-gr-card figcaption {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #edf1f8;
+}
+
+.fz-gr-card__avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--fz-blue), var(--fz-cyan));
+  color: #fff;
+  font: 700 1.125rem/1 var(--fz-font-head);
+}
+
+.fz-gr-card__who {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.fz-gr-card__who strong {
+  font: 700 1rem/1.3 var(--fz-font-head);
+  overflow-wrap: anywhere;
+}
+
+.fz-gr-card__who > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--fz-muted);
+  font-size: 0.8125rem;
+}
+
+.fz-gr-nav {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.fz-gr-nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #cfdbf0;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--fz-deep);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.fz-gr-nav button:hover {
+  border-color: var(--fz-deep);
+  background: var(--fz-deep);
+  color: #fff;
+}
+
+.fz-gr-nav button:focus-visible,
+.fz-gr-track:focus-visible,
+.fz-gr-card__more:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: 3px;
+}
+
+/* Desktop: slider sits centred beside the panel, with roomier cards. */
+.fz-gr-track {
+  flex: none;
+}
+
+@media (min-width: 1100px) {
+  .fz-gr-slider {
+    justify-content: center;
+  }
+
+  .fz-gr-card {
+    padding: 34px 30px 28px;
+  }
+
+  .fz-gr-card blockquote.is-clamped {
+    -webkit-line-clamp: 8;
+    line-clamp: 8;
+  }
+
+  .fz-gr-nav {
+    margin-top: 4px;
+  }
+}

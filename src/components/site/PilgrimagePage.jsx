@@ -322,7 +322,7 @@ export default function PilgrimagePage({ initialMode = "umrah" }) {
       />
 
       {/* 10. Testimonials (shared, real reviews only) */}
-      <section className="fz-section" aria-labelledby="testimonials-title">
+      <section className="fz-section fz-section--reviews" aria-labelledby="testimonials-title">
         <div className="fz-container">
           <Testimonials />
         </div>
