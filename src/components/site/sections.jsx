@@ -15,6 +15,7 @@ import {
   Info,
   Instagram,
   Plane,
+  Star,
 } from "lucide-react";
 import WhatsAppIcon from "./WhatsAppIcon";
 import {
@@ -26,6 +27,7 @@ import {
   whyChoose,
 } from "@/data/umrahContent";
 import { APP_SETTINGS, telHref, whatsappHref } from "@/constants/app-setting";
+import { GOOGLE_LISTING_URL, GOOGLE_WRITE_REVIEW_URL, googleRating, googleReviews } from "@/data/googleReviews";
 
 const SERVICE_ICONS = {
   visa: FileCheck2,
@@ -246,52 +248,86 @@ export const CtaBand = ({
  * (no genuine reviews were available in the project) it shows a neutral panel
  * pointing to the company's real social pages instead of invented quotes.
  */
-export const Testimonials = () => (
-  <>
-    <SectionHead
-      eyebrow="Testimonials"
-      title="What Our Pilgrims Say"
-      id="testimonials-title"
-      text={
-        testimonials.length
-          ? "Feedback from customers who travelled with Flying Zone."
-          : "We share updates and moments from our travellers on our social pages."
-      }
-    />
-    {testimonials.length ? (
-      <ul className="fz-reviews">
-        {testimonials.map((review) => (
-          <li key={review.name} data-reveal>
-            <figure className="fz-review">
-              <blockquote>{review.quote}</blockquote>
-              <figcaption>
-                <strong>{review.name}</strong>
-                {review.detail && <span>{review.detail}</span>}
-              </figcaption>
-            </figure>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <div className="fz-reviews-empty" data-reveal>
-        <p>
-          See recent departures and hear from the people who travelled with us, or ask our team to
-          put you in touch with a past pilgrim.
-        </p>
-        <div className="fz-reviews-empty__actions">
-          <a href={APP_SETTINGS.socialLinks.facebook} className="fz-btn fz-btn--outline" target="_blank" rel="noopener noreferrer">
-            <Facebook size={18} aria-hidden="true" />
-            Facebook
+const GoogleLogo = ({ size = 22 }) => (
+  <svg width={size} height={size} viewBox="0 0 48 48" aria-hidden="true">
+    <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+    <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+    <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+    <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+  </svg>
+);
+
+const Stars = ({ rating }) => (
+  <span className="fz-stars" role="img" aria-label={`${rating} out of 5 stars`}>
+    {[1, 2, 3, 4, 5].map((n) => (
+      <Star key={n} size={16} aria-hidden="true" className={n <= Math.round(rating) ? "is-on" : undefined} />
+    ))}
+  </span>
+);
+
+/**
+ * Google Reviews. Shows only real reviews pasted into data/googleReviews.js;
+ * while that list is empty it shows the Google call-to-action panel alone.
+ * (Kept under the name Testimonials so existing pages need no changes.)
+ */
+export const Testimonials = () => {
+  const writeUrl = GOOGLE_WRITE_REVIEW_URL || GOOGLE_LISTING_URL;
+  return (
+    <>
+      <SectionHead
+        eyebrow="Google reviews"
+        title="What Our Customers Say on Google"
+        id="testimonials-title"
+        text="Read what travellers say about Flying Zone on Google, or share your own experience."
+      />
+      {googleReviews.length > 0 && (
+        <ul className="fz-reviews">
+          {googleReviews.map((review) => (
+            <li key={review.name + review.date} data-reveal>
+              <figure className="fz-review">
+                <div className="fz-review__top">
+                  <Stars rating={review.rating} />
+                  <GoogleLogo size={18} />
+                </div>
+                <blockquote>{review.text}</blockquote>
+                <figcaption>
+                  <strong>{review.name}</strong>
+                  {review.date && <span>{review.date}</span>}
+                </figcaption>
+              </figure>
+            </li>
+          ))}
+        </ul>
+      )}
+      <div className="fz-greview" data-reveal>
+        <div className="fz-greview__brand">
+          <GoogleLogo size={40} />
+          <div>
+            <strong>Flying Zone on Google</strong>
+            {googleRating ? (
+              <span className="fz-greview__rating">
+                <b>{googleRating.value}</b>
+                <Stars rating={Number(googleRating.value)} />
+                <span>{googleRating.count} reviews</span>
+              </span>
+            ) : (
+              <span>See our rating and customer reviews on our Google Business profile.</span>
+            )}
+          </div>
+        </div>
+        <div className="fz-greview__actions">
+          <a href={GOOGLE_LISTING_URL} className="fz-btn fz-btn--primary" target="_blank" rel="noopener noreferrer">
+            Read Reviews on Google
           </a>
-          <a href={APP_SETTINGS.socialLinks.instagram} className="fz-btn fz-btn--outline" target="_blank" rel="noopener noreferrer">
-            <Instagram size={18} aria-hidden="true" />
-            Instagram
+          <a href={writeUrl} className="fz-btn fz-btn--outline" target="_blank" rel="noopener noreferrer">
+            <Star size={18} aria-hidden="true" />
+            Write a Review
           </a>
         </div>
       </div>
-    )}
-  </>
-);
+    </>
+  );
+};
 
 // Native <details> accordion: accessible and needs no JavaScript.
 export const Faq = ({ items }) => (
