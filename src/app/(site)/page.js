@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Check, Clock, MapPin, ShieldCheck, Sparkles, Timer, Users } from "lucide-react";
 import WhatsAppIcon from "@/components/site/WhatsAppIcon";
-import CeoMessage from "@/components/site/CeoMessage";
-import TeamSlider from "@/components/site/TeamSlider";
+import ChairmanMessage from "@/components/site/staff/ChairmanMessage";
+import StaffShowcase from "@/components/site/staff/StaffShowcase";
 import { CtaBand, SectionHead, Testimonials } from "@/components/site/sections";
 import {
   featuredVisas,
@@ -15,7 +15,6 @@ import {
   homeAbout,
   popularDestinations,
   specializedServices,
-  team,
   tourPackages,
   whyChoose,
 } from "@/data/homeContent";
@@ -358,16 +357,9 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CEO message */}
-      <CeoMessage />
-
-      {/* Team (original card design) */}
-      <section className="fz-section fz-section--soft" aria-labelledby="team-title">
-        <div className="fz-container">
-          <SectionHead eyebrow="Our team" id="team-title" title="Meet Our Team" text="The people who plan and look after your journeys." />
-          <TeamSlider members={team} />
-        </div>
-      </section>
+      {/* Chairman's message + core team (data: src/data/staffContent.js) */}
+      <ChairmanMessage />
+      <StaffShowcase />
 
       <CtaBand
         title="Plan Your Next Trip With Us"

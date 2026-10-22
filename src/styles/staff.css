@@ -1,0 +1,615 @@
+/* ==========================================================================
+   Chairman's message + Meet Our Core Team (components/site/staff/*).
+   Self-contained so it renders identically on the redesigned pages and on
+   the legacy About page. Tokens come from chrome.css.
+   ========================================================================== */
+
+.st-chair,
+.st-team {
+  --st-navy: #102754;
+  font-family: var(--fz-font-body);
+}
+
+.st-chair *,
+.st-team * {
+  box-sizing: border-box;
+}
+
+.st-chair p,
+.st-team p,
+.st-team ul,
+.st-chair figure {
+  margin: 0;
+}
+
+/* ---------- Shared type ---------- */
+
+.st-chair .st-eyebrow,
+.st-team .st-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: var(--fz-blue);
+  font: 700 12.5px/1.2 var(--fz-font-body);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.st-eyebrow::before {
+  content: "";
+  width: 32px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--fz-cyan), var(--fz-blue));
+  transform-origin: left;
+}
+
+.st-chair .st-h2,
+.st-team .st-h2 {
+  margin: 0;
+  color: var(--fz-ink);
+  font: 800 clamp(2rem, 4.4vw, 3.25rem)/1.06 var(--fz-font-head);
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+/* ---------- Motion (enabled by RevealScope) ---------- */
+
+.st-motion [data-st] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: calc(var(--i, 0) * 90ms);
+}
+
+.st-motion [data-st].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.st-motion .st-eyebrow::before {
+  transform: scaleX(0);
+  transition: transform 0.8s 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.st-motion .is-in .st-eyebrow::before,
+.st-motion .is-in.st-eyebrow::before {
+  transform: scaleX(1);
+}
+
+/* ==========================================================================
+   Chairman
+   ========================================================================== */
+
+.st-chair {
+  position: relative;
+  overflow: hidden;
+  padding-block: 72px;
+  background: #fff;
+}
+
+/* faint oversized monogram line, top right */
+.st-chair::before {
+  content: "";
+  position: absolute;
+  top: -180px;
+  right: -180px;
+  width: 520px;
+  height: 520px;
+  border: 1px solid rgba(36, 84, 184, 0.08);
+  border-radius: 50%;
+  box-shadow: 0 0 0 60px rgba(238, 245, 255, 0.55);
+  pointer-events: none;
+}
+
+.st-chair__inner {
+  position: relative;
+  display: grid;
+  gap: 48px;
+}
+
+.st-chair__media {
+  position: relative;
+  width: min(100%, 420px);
+  margin-inline: auto;
+  padding: 0 22px 22px 0;
+}
+
+.st-chair__block {
+  position: absolute;
+  inset: 22px 0 0 22px;
+  border-radius: 6px;
+  background: linear-gradient(150deg, #102754 0%, #163a82 70%, #2454b8 100%);
+}
+
+.st-chair__block::after {
+  content: "";
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  width: 64px;
+  height: 64px;
+  border-right: 2px solid var(--fz-cyan);
+  border-bottom: 2px solid var(--fz-cyan);
+}
+
+.st-chair__frame {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #dfe8f7;
+  box-shadow: 0 30px 60px -30px rgba(16, 39, 84, 0.55);
+}
+
+.st-chair__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.st-chair__media:hover .st-chair__frame img {
+  transform: scale(1.035);
+}
+
+.st-chair__tag {
+  position: absolute;
+  left: -10px;
+  bottom: 56px;
+  display: grid;
+  gap: 2px;
+  max-width: 78%;
+  padding: 14px 18px;
+  border-left: 3px solid var(--fz-cyan);
+  background: #fff;
+  box-shadow: 0 16px 34px -16px rgba(16, 39, 84, 0.45);
+}
+
+.st-chair__tag strong {
+  color: var(--fz-ink);
+  font: 700 0.9375rem/1.3 var(--fz-font-head);
+}
+
+.st-chair__tag span {
+  color: var(--fz-muted);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.st-chair__quote {
+  display: block;
+  height: 54px;
+  margin-top: 18px;
+  color: var(--fz-cyan);
+  font: 400 6.5rem/1 Georgia, "Times New Roman", serif;
+  user-select: none;
+}
+
+.st-chair__message {
+  display: grid;
+  gap: 18px;
+  max-width: 60ch;
+}
+
+.st-chair .st-chair__message p {
+  color: #3d4860;
+  font: 400 1.0625rem/1.85 var(--fz-font-body);
+}
+
+.st-chair .st-chair__message p:first-child {
+  color: var(--fz-ink);
+  font-size: 1.1875rem;
+  font-weight: 500;
+  line-height: 1.75;
+}
+
+.st-chair__sign {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 8px 22px;
+  margin-top: 34px;
+  padding-top: 26px;
+  border-top: 1px solid #e3eaf6;
+}
+
+.st-chair .st-chair__signature {
+  flex-basis: 100%;
+  color: var(--fz-deep);
+  font: italic 400 clamp(1.75rem, 3.4vw, 2.25rem)/1 Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+.st-chair__sign p {
+  display: grid;
+  gap: 2px;
+}
+
+.st-chair__sign strong {
+  color: var(--fz-ink);
+  font: 700 0.875rem/1.3 var(--fz-font-body);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.st-chair__sign p span {
+  color: var(--fz-muted);
+  font-size: 0.875rem;
+}
+
+@media (min-width: 992px) {
+  .st-chair {
+    padding-block: 120px;
+  }
+
+  .st-chair__inner {
+    grid-template-columns: 440px minmax(0, 1fr);
+    align-items: center;
+    gap: 96px;
+  }
+
+  .st-chair__media {
+    width: 100%;
+    margin: 0;
+    padding: 0 30px 30px 0;
+  }
+
+  .st-chair__block {
+    inset: 30px 0 0 30px;
+  }
+
+  .st-chair__tag {
+    left: -28px;
+  }
+}
+
+/* ==========================================================================
+   Team carousel (StaffShowcase → StaffCarousel → StaffCard)
+   ========================================================================== */
+
+.st-team {
+  position: relative;
+  overflow: hidden;
+  padding-block: 72px;
+  background: #fff;
+}
+
+/* soft brand glow behind the cards */
+.st-team::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  width: min(1100px, 120%);
+  height: 520px;
+  border-radius: 50%;
+  background:
+    radial-gradient(closest-side at 35% 55%, rgba(36, 84, 184, 0.16), transparent),
+    radial-gradient(closest-side at 65% 50%, rgba(0, 175, 199, 0.14), transparent);
+  filter: blur(30px);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.st-team > .fz-container {
+  position: relative;
+}
+
+.st-team__head {
+  display: grid;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.st-team .st-team__lead {
+  max-width: 46ch;
+  color: var(--fz-muted);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+@media (min-width: 992px) {
+  .st-team {
+    padding-block: 120px;
+  }
+
+  .st-team__head {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    align-items: end;
+    gap: 64px;
+    margin-bottom: 36px;
+  }
+}
+
+/* ---------- Track ---------- */
+
+.st-team .sc__track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 82%;
+  column-gap: 22px;
+  align-items: start;
+  margin: 0 -20px;
+  /* top/left room for the overlapping avatar; bottom room for the card shadow */
+  padding: 34px 20px 56px 40px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 40px;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.sc__track::-webkit-scrollbar {
+  display: none;
+}
+
+.sc__track:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: -3px;
+  border-radius: 12px;
+}
+
+.sc__track > li {
+  scroll-snap-align: start;
+}
+
+@media (min-width: 640px) {
+  .st-team .sc__track {
+    grid-auto-columns: calc((100% - 60px - 22px) / 2);
+  }
+}
+
+@media (min-width: 1100px) {
+  .st-team .sc__track {
+    grid-auto-columns: calc((100% - 60px - 2 * 40px) / 3);
+    column-gap: 40px;
+    margin: 0 -24px;
+    padding: 40px 24px 96px 48px;
+    scroll-padding-left: 48px;
+  }
+
+  /* staggered rhythm like the reference: every middle card sits lower */
+  .sc__track > li:nth-child(3n + 2) {
+    margin-top: 48px;
+  }
+}
+
+/* ---------- Card ---------- */
+
+.sc-card {
+  position: relative;
+  padding: 14px 14px 24px;
+  border: 1px solid #edf1f8;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(16, 39, 84, 0.04), 0 26px 50px -28px rgba(16, 39, 84, 0.35);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 2px 4px rgba(16, 39, 84, 0.04), 0 36px 64px -30px rgba(16, 39, 84, 0.45);
+}
+
+.sc-card__photo {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #e6edf8;
+}
+
+.sc-card__photo img,
+.sc-card__avatar img {
+  object-fit: cover;
+  object-position: center 18%;
+}
+
+.sc-card__photo img {
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.sc-card:hover .sc-card__photo img,
+.sc-card:hover .sc-card__photo .st-ph svg {
+  transform: scale(1.05);
+}
+
+/* round avatar overlapping the top-left corner */
+.sc-card__avatar {
+  position: absolute;
+  top: -26px;
+  left: -26px;
+  z-index: 2;
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  background: #e6edf8;
+  box-shadow: 0 12px 26px -10px rgba(16, 39, 84, 0.45);
+}
+
+/* zoom the avatar in on the face */
+.sc-card__avatar img,
+.sc-card__avatar .st-ph svg {
+  transform: scale(2.1);
+  transform-origin: center 28%;
+}
+
+.sc-card__body {
+  padding: 22px 10px 0;
+}
+
+.sc-card__badge {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--fz-soft);
+  color: var(--fz-deep);
+  font: 700 10.5px/1 var(--fz-font-body);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.st-team .sc-card__name {
+  margin: 0;
+  color: #1c2b5a;
+  font: 700 1.3125rem/1.25 var(--fz-font-head);
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.st-team .sc-card__role {
+  margin: 6px 0 0;
+  color: #8c95a8;
+  font: 400 0.9375rem/1.45 var(--fz-font-body);
+}
+
+.st-team .sc-card__social {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sc-card__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: #eef3fd;
+  color: var(--fz-blue);
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.sc-card__social a:hover {
+  background: var(--fz-blue);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.sc-card__social a:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: 2px;
+}
+
+.sc-initials {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(150deg, #1e4aa3, #102754);
+  color: rgba(255, 255, 255, 0.85);
+  font: 800 2.5rem/1 var(--fz-font-head);
+}
+
+.st-ph,
+.st-ph svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.st-ph svg {
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 639.98px) {
+  .sc-card__avatar {
+    top: -22px;
+    left: -22px;
+    width: 72px;
+    height: 72px;
+    border-width: 4px;
+  }
+
+  .st-team .sc-card__name {
+    font-size: 1.1875rem;
+  }
+}
+
+/* ---------- Controls ---------- */
+
+.sc__controls {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: -16px;
+}
+
+.sc__progress {
+  position: relative;
+  flex: 1;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #e1e8f4;
+}
+
+.sc__progress span {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, var(--fz-cyan), var(--fz-blue));
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.sc__arrows {
+  display: flex;
+  gap: 10px;
+}
+
+.sc__arrows button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #cfdbf0;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--fz-deep);
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.sc__arrows button:hover:not(:disabled) {
+  border-color: var(--fz-deep);
+  background: var(--fz-deep);
+  color: #fff;
+}
+
+.sc__arrows button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.sc__arrows button:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: 3px;
+}
+
+@media (min-width: 1100px) {
+  .sc__controls {
+    margin-top: -40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .st-chair *,
+  .st-team * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

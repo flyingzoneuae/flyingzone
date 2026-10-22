@@ -1,10 +1,10 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import ActivitiesSection from "@/components/activities/ActivitiesSection";
-import TeamSection from "@/components/team/TeamSection";
 import WhyChooseSection from "@/components/whyChoose/WhyChooseSection";
 import AboutOverviewSection from "@/components/about/AboutOverviewSection";
 import aboutPage from "@/data/about.json";
-import CeoMessage from "@/components/site/CeoMessage";
+import ChairmanMessage from "@/components/site/staff/ChairmanMessage";
+import StaffShowcase from "@/components/site/staff/StaffShowcase";
 
 export const metadata = {
   title: "About Us",
@@ -24,8 +24,8 @@ const page = () => {
       <AboutOverviewSection />
       <WhyChooseSection />
       <ActivitiesSection />
-      <CeoMessage />
-      <TeamSection />
+      <ChairmanMessage />
+      <StaffShowcase />
     </>
   );
 };
