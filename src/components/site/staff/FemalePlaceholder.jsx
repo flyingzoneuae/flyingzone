@@ -1,7 +1,8 @@
 // Designed stand-in portrait for female staff without a photo: a woman in a
 // hijab, drawn as a soft silhouette on a brand gradient (same frame as photos).
-const FemalePlaceholder = ({ name }) => (
-  <span className="st-ph" role="img" aria-label={`${name} — photo coming soon`}>
+// `bare`: figure only (transparent background), for use over a card backdrop.
+const FemalePlaceholder = ({ name, bare = false }) => (
+  <span className={bare ? "st-ph st-ph--bare" : "st-ph"} role="img" aria-label={`${name} — photo coming soon`}>
     <svg viewBox="0 0 400 500" aria-hidden="true" preserveAspectRatio="xMidYMax slice">
       <defs>
         <linearGradient id="st-ph-bg" x1="0" y1="0" x2="1" y2="1">
@@ -17,8 +18,8 @@ const FemalePlaceholder = ({ name }) => (
           <stop offset="1" stopColor="#00afc7" stopOpacity="0" />
         </radialGradient>
       </defs>
-      <rect width="400" height="500" fill="url(#st-ph-bg)" />
-      <rect width="400" height="500" fill="url(#st-ph-glow)" />
+      {!bare && <rect width="400" height="500" fill="url(#st-ph-bg)" />}
+      {!bare && <rect width="400" height="500" fill="url(#st-ph-glow)" />}
       {/* shoulders */}
       <path d="M22 500 C34 430 96 392 160 382 L240 382 C304 392 366 430 378 500 Z" fill="url(#st-ph-cloth)" />
       {/* hijab: rounded crown, drapes past the chin onto the shoulders */}

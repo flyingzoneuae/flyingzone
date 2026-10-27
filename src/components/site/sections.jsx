@@ -15,18 +15,24 @@ import {
   Info,
   Instagram,
   Plane,
+  Scale,
   Star,
 } from "lucide-react";
 import WhatsAppIcon from "./WhatsAppIcon";
+import { Panel, PanelButton, PanelsProvider } from "./PackagePanels";
 import {
   journeySteps,
   packagePriceLabel,
   testimonials,
   umrahPackages,
+  airPackages,
+  busPackages,
   umrahServices,
   whyChoose,
 } from "@/data/umrahContent";
 import { APP_SETTINGS, telHref, whatsappHref } from "@/constants/app-setting";
+
+const PANEL_IDS = ["air-packages", "compare-packages"];
 
 const SERVICE_ICONS = {
   visa: FileCheck2,
@@ -50,8 +56,9 @@ export const SectionHead = ({ eyebrow, title, text, id, align = "center" }) => (
   </div>
 );
 
-export const PackageCard = ({ pkg, priority = false }) => (
-  <article className="fz-pkg" data-reveal>
+export const PackageCard = ({ pkg, priority = false, wide = false }) => (
+  <article className={`fz-pkg${wide ? " fz-pkg--wide" : ""}${pkg.featured ? " fz-pkg--featured" : ""}`} data-reveal>
+    {pkg.tier && <span className="fz-pkg__tier">{pkg.tier}</span>}
     <Link href={pkg.href} className="fz-pkg__media" tabIndex={-1} aria-hidden="true">
       <Image
         src={pkg.cover.src}
@@ -95,6 +102,157 @@ export const PackageGrid = () => (
       <PackageCard key={pkg.slug} pkg={pkg} />
     ))}
   </div>
+);
+
+/** Shared shell for the two "hub" cards (Umrah by Air, Compare) that open a panel. */
+const HubCard = ({ cover, label, title, tagline, facts, panelId, button, openLabel }) => (
+  <article className="fz-pkg fz-pkg--hub" data-reveal>
+    <div className="fz-pkg__media">
+      <Image src={cover.src} alt="" fill sizes="(min-width: 1100px) 380px, (min-width: 768px) 50vw, 100vw" />
+      <span className="fz-pkg__label">{label}</span>
+    </div>
+    <div className="fz-pkg__body">
+      <h3>{title}</h3>
+      <p className="fz-pkg__tagline">{tagline}</p>
+      <dl className="fz-pkg__facts">
+        {facts.map((fact) => (
+          <div key={fact.key}>
+            <dt>{fact.key}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+      <div className="fz-pkg__foot">
+        <PanelButton id={panelId} label={button} openLabel={openLabel} />
+      </div>
+    </div>
+  </article>
+);
+
+const PanelHead = ({ icon: Icon, id, title, text }) => (
+  <div className="fz-pkg-group__head">
+    <span className="fz-pkg-group__icon">
+      <Icon size={20} aria-hidden="true" />
+    </span>
+    <div>
+      <h3 id={id}>{title}</h3>
+      <p>{text}</p>
+    </div>
+  </div>
+);
+
+/**
+ * Umrah packages: Bus card, an "Umrah by Air" card that opens the four air
+ * packages, and a "Compare" card that opens the comparison table.
+ */
+export const UmrahPackageGroups = ({ compareRows }) => (
+  <PanelsProvider ids={PANEL_IDS}>
+    <div className="fz-pkg-grid">
+      {busPackages.map((pkg) => (
+        <PackageCard key={pkg.slug} pkg={pkg} />
+      ))}
+      <HubCard
+        cover={airPackages[0].cover}
+        label="Umrah by Air"
+        title="Umrah by Air"
+        tagline="Four packages with return flights from the UAE — Standard, Premium, Elite and Special."
+        facts={[
+          { key: "Packages", value: `${airPackages.length} options` },
+          { key: "Duration", value: "06 or 09 days" },
+          { key: "Hotels", value: "Comfort or 5-star" },
+        ]}
+        panelId="air-packages"
+        button={`View ${airPackages.length} Packages`}
+        openLabel="Hide Packages"
+      />
+      <HubCard
+        cover={airPackages[1].cover}
+        label="Compare"
+        title="Compare Air Packages"
+        tagline="See the hotels, transport, flights and inclusions of every air package side by side."
+        facts={[
+          { key: "Packages", value: `${airPackages.length} side by side` },
+          { key: "Compared", value: "Hotels, transport, flights" },
+          { key: "Inclusions", value: "Visa, Ziarat, guide & more" },
+        ]}
+        panelId="compare-packages"
+        button="Compare Packages"
+        openLabel="Hide Comparison"
+      />
+    </div>
+
+    <Panel id="air-packages" labelledBy="air-packages-title">
+      <PanelHead
+        icon={Plane}
+        id="air-packages-title"
+        title="Umrah by Air"
+        text="Four packages with return flights — choose the comfort level and length that suit you."
+      />
+      <div className="fz-pkg-grid fz-pkg-grid--4">
+        {airPackages.map((pkg) => (
+          <PackageCard key={pkg.slug} pkg={pkg} />
+        ))}
+      </div>
+    </Panel>
+
+    <Panel id="compare-packages" labelledBy="compare-packages-title">
+      <PanelHead
+        icon={Scale}
+        id="compare-packages-title"
+        title="Compare Umrah by Air packages"
+        text="Hotels, transport, flights and inclusions side by side."
+      />
+      <div className="fz-compare">
+        <div className="fz-compare__scroll" tabIndex={0} role="region" aria-label="Umrah by Air package comparison">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">
+                  <span className="fz-sr">Feature</span>
+                </th>
+                {airPackages.map((pkg) => (
+                  <th scope="col" key={pkg.slug} className={pkg.featured ? "is-featured" : undefined}>
+                    <span className="fz-compare__tier">{pkg.tier}</span>
+                    <Link href={pkg.href}>{pkg.shortTitle}</Link>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {compareRows.map((row) => (
+                <tr key={row.label}>
+                  <th scope="row">{row.label}</th>
+                  {airPackages.map((pkg) => {
+                    const v = row.get(pkg);
+                    return (
+                      <td key={pkg.slug} className={pkg.featured ? "is-featured" : undefined}>
+                        {v === true ? (
+                          <Check size={18} strokeWidth={2.5} className="fz-compare__yes" aria-label="Included" />
+                        ) : (
+                          v
+                        )}
+                      </td>
+                    );
+                  })}
+                </tr>
+              ))}
+              <tr>
+                <th scope="row">Price</th>
+                {airPackages.map((pkg) => (
+                  <td key={pkg.slug} className={pkg.featured ? "is-featured" : undefined}>
+                    <Link href={pkg.href} className="fz-link">
+                      {packagePriceLabel(pkg)}
+                    </Link>
+                  </td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="fz-compare__note">Exact hotel names, flight times and availability are confirmed at booking.</p>
+      </div>
+    </Panel>
+  </PanelsProvider>
 );
 
 export const ServiceGrid = ({ items = umrahServices }) => (

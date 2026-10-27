@@ -7,6 +7,7 @@
  * client's confirmation are marked "CLIENT TO CONFIRM".
  */
 import hajjUmrahData from "@/data/hajj-and-umrah.json";
+import { airPackages } from "@/data/airPackages";
 
 /**
  * CLIENT TO CONFIRM: the package data contains "startingPrice" values
@@ -91,17 +92,19 @@ const PACKAGE_PRESENTATION = {
   },
 };
 
-// Display order on cards: most affordable first.
-const ORDER = [
-  "executive-umrah-bus-10-days",
-  "standard-umrah-air-08-days",
-  "premium-umrah-air-05-days",
-];
+// Umrah by Bus. (The two old "by Air" entries above are superseded by the four
+// packages in data/airPackages.js; their old URLs redirect, see next.config.js.)
+const ORDER = ["executive-umrah-bus-10-days"];
 
-export const umrahPackages = ORDER.map((slug) => {
+export const busPackages = ORDER.map((slug) => {
   const pkg = hajjUmrahData.umrah.find((p) => p.slug === slug);
   return { ...pkg, ...PACKAGE_PRESENTATION[slug], href: `/umrah/${slug}` };
 }).filter((p) => p.title);
+
+export { airPackages };
+
+/** Every Umrah package with a detail page: by Air first, then by Bus. */
+export const umrahPackages = [...airPackages, ...busPackages];
 
 export const getUmrahPackage = (slug) => umrahPackages.find((p) => p.slug === slug);
 

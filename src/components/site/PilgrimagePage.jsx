@@ -19,13 +19,14 @@ import {
   faqJsonLd,
   HajjOptionGrid,
   JourneySteps,
-  PackageGrid,
+  UmrahPackageGroups,
   SectionHead,
   ServiceGrid,
   Testimonials,
   WhyChoose,
 } from "./sections";
 import { homeFaqs, umrahExtraFaqs } from "@/data/umrahContent";
+import { airCompareRows } from "@/data/airPackages";
 import {
   HAJJ_DISCLAIMER,
   hajjCities,
@@ -188,7 +189,7 @@ export default function PilgrimagePage({ initialMode = "umrah" }) {
                   title="Umrah Packages Designed Around Your Journey"
                   text="Choose a package that fits your time, budget and travel needs."
                 />
-                <PackageGrid />
+                <UmrahPackageGroups compareRows={airCompareRows} />
                 <p className="fz-section__more">
                   <Link href="#whats-included" className="fz-link">
                     See everything included in our Umrah packages <ArrowRight size={16} aria-hidden="true" />

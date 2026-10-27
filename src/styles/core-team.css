@@ -1,0 +1,459 @@
+/* ==========================================================================
+   "Our Core Team" (components/site/staff/StaffShowcase → CoreTeamCarousel →
+   CoreTeamCard). Self-contained; tokens come from chrome.css.
+   ========================================================================== */
+
+.ct {
+  --ct-red: #d91e2b;
+  --ct-navy: #0f2759;
+  position: relative;
+  overflow: hidden;
+  padding-block: 72px 64px;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f7fe 100%);
+  font-family: var(--fz-font-body);
+}
+
+.ct *,
+.ct *::before,
+.ct *::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Decoration ---------- */
+
+.ct__mosque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(460px, 45%);
+  height: 420px;
+  background: url("/assets/fz/madinah-dome.webp") center top / cover no-repeat;
+  opacity: 0.16;
+  filter: grayscale(1) contrast(1.1);
+  -webkit-mask-image: linear-gradient(90deg, #000 30%, transparent), linear-gradient(180deg, #000 40%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(90deg, #000 30%, transparent), linear-gradient(180deg, #000 40%, transparent);
+  mask-composite: intersect;
+  pointer-events: none;
+}
+
+.ct__swoosh {
+  position: absolute;
+  z-index: 0;
+  width: 46%;
+  height: 360px;
+  pointer-events: none;
+}
+
+.ct__swoosh--left {
+  top: 40px;
+  left: 0;
+  opacity: 0.18;
+}
+
+.ct__swoosh--right {
+  top: 60px;
+  right: 0;
+  width: 34%;
+  opacity: 0.12;
+}
+
+.ct__plane {
+  position: absolute;
+  top: 70px;
+  right: 6%;
+  color: #4d8be8;
+  opacity: 0.55;
+  transform: rotate(-35deg);
+  pointer-events: none;
+}
+
+.ct__plane::before {
+  content: "";
+  position: absolute;
+  right: 54px;
+  top: 52px;
+  width: 260px;
+  height: 120px;
+  border-top: 2px dashed rgba(77, 139, 232, 0.35);
+  border-radius: 50%;
+  transform: rotate(25deg);
+}
+
+.ct__inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- Heading ---------- */
+
+.ct__head {
+  max-width: 760px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.ct .ct__eyebrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin: 0 0 6px;
+  color: var(--ct-red);
+  font: 700 clamp(1rem, 2vw, 1.375rem)/1 var(--fz-font-head);
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  padding-left: 0.45em;
+}
+
+.ct__eyebrow::before,
+.ct__eyebrow::after {
+  content: "";
+  width: clamp(40px, 10vw, 96px);
+  height: 2px;
+  background: var(--ct-red);
+}
+
+.ct .ct__title {
+  margin: 0;
+  color: var(--ct-navy);
+  font: 900 clamp(2.75rem, 8vw, 5.25rem)/1 var(--fz-font-head);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.ct__title span {
+  background: linear-gradient(90deg, #1f5fd6 0%, #2b8cf0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.ct .ct__lead {
+  max-width: 54ch;
+  margin: 18px auto 0;
+  color: #3d4860;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  .ct {
+    padding-block: 110px 90px;
+  }
+
+  .ct__head {
+    margin-bottom: 56px;
+  }
+}
+
+/* ---------- Carousel ---------- */
+
+.ct .ct-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 78%;
+  gap: 18px;
+  margin: 0 -20px;
+  padding: 8px 20px 30px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 20px;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.ct-track::-webkit-scrollbar {
+  display: none;
+}
+
+.ct-track > li {
+  scroll-snap-align: start;
+}
+
+.ct-track:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: -3px;
+}
+
+@media (min-width: 560px) {
+  .ct .ct-track {
+    grid-auto-columns: calc((100% - 40px - 18px) / 2);
+  }
+}
+
+@media (min-width: 900px) {
+  .ct .ct-track {
+    grid-auto-columns: calc((100% - 40px - 2 * 22px) / 3);
+    gap: 22px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ct .ct-track {
+    grid-auto-columns: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
+    margin: 0;
+    padding: 8px 0 34px;
+    scroll-padding-inline: 0;
+  }
+}
+
+.ct-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.ct-dots button {
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #d3dbe8;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.ct-dots button:hover {
+  background: #a9bde0;
+}
+
+.ct-dots button.is-active {
+  background: #1f6fe0;
+  transform: scale(1.15);
+}
+
+.ct-dots button:focus-visible {
+  outline: 3px solid var(--fz-cyan);
+  outline-offset: 3px;
+}
+
+/* ---------- Card ---------- */
+
+.ct-card {
+  overflow: hidden;
+  border: 1px solid #e6ecf6;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(15, 39, 89, 0.05), 0 24px 44px -26px rgba(15, 39, 89, 0.35);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ct-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 2px 6px rgba(15, 39, 89, 0.05), 0 34px 60px -28px rgba(15, 39, 89, 0.45);
+}
+
+.ct-card__visual {
+  position: relative;
+  aspect-ratio: 1 / 1.08;
+  overflow: hidden;
+  background: linear-gradient(180deg, #eaf2ff 0%, #d6e6fb 100%);
+  isolation: isolate;
+}
+
+/* faded landmark on the right, washed in brand blue */
+.ct-card__landmark {
+  position: absolute;
+  inset: 0 0 0 30%;
+  z-index: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.85;
+  filter: saturate(0.85) brightness(1.08);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 45%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 45%);
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ct-card__visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(214, 230, 251, 0) 40%, rgba(196, 218, 248, 0.55) 100%);
+  pointer-events: none;
+}
+
+.ct-card__swoosh {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.ct-card__person {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 3;
+  width: 92%;
+  height: 92%;
+  object-fit: contain;
+  object-position: center bottom;
+  transform: translateX(-54%);
+  transform-origin: center bottom;
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  filter: drop-shadow(0 18px 24px rgba(15, 39, 89, 0.28));
+}
+
+.ct-card__person--photo {
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.ct-card__person--ph {
+  display: block;
+  filter: none;
+}
+
+.ct-card__person--ph .st-ph,
+.ct-card__person--ph svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ct-card__wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  z-index: 4;
+  width: 100%;
+  height: 22%;
+}
+
+.ct-card:hover .ct-card__person {
+  transform: translateX(-54%) scale(1.04);
+}
+
+.ct-card:hover .ct-card__landmark {
+  transform: scale(1.06);
+}
+
+.ct-card__body {
+  position: relative;
+  z-index: 5;
+  padding: 2px 24px 22px;
+}
+
+.ct-card__accent {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 12px;
+  border-radius: 2px;
+  background: var(--ct-red);
+  transition: width 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ct-card:hover .ct-card__accent {
+  width: 54px;
+}
+
+.ct .ct-card__name {
+  margin: 0;
+  color: var(--ct-navy);
+  font: 800 1.25rem/1.25 var(--fz-font-head);
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.ct .ct-card__role {
+  margin: 6px 0 0;
+  color: #5d6780;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.ct-card__rule {
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin-top: 18px;
+  background: #e1e7f1;
+}
+
+@media (max-width: 559.98px) {
+  .ct__plane,
+  .ct__swoosh--right {
+    display: none;
+  }
+
+  .ct__swoosh--left {
+    width: 80%;
+    height: 260px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ct-card,
+  .ct-card__person,
+  .ct-card__landmark,
+  .ct-card__accent,
+  .ct-dots button {
+    transition: none;
+  }
+}
+
+/* Fade the background swooshes out instead of a hard bottom edge */
+.ct__swoosh {
+  -webkit-mask-image: linear-gradient(180deg, #000 35%, transparent 95%);
+  mask-image: linear-gradient(180deg, #000 35%, transparent 95%);
+}
+
+/* Equal-height cards */
+.ct .ct-track {
+  align-items: stretch;
+}
+
+.ct-track > li {
+  display: flex;
+}
+
+.ct-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ct-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.ct-card__rule {
+  margin-top: auto;
+  padding-top: 0;
+}
+
+.ct .ct-card__role {
+  margin-bottom: 18px;
+}
+
+/* Female placeholder on a card: solid, soft silhouette with a gentle shadow */
+.ct-card__person--ph {
+  filter: drop-shadow(0 18px 24px rgba(15, 39, 89, 0.3));
+}
+
+.ct-card .st-ph--bare path {
+  fill: #f3f7fe;
+  fill-opacity: 1;
+}
+
+.ct-card .st-ph--bare path:nth-of-type(3) {
+  fill: #e4edfb;
+}
+
+.ct-card .st-ph--bare ellipse {
+  fill: #d4e3f8;
+  fill-opacity: 1;
+}

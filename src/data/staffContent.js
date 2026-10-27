@@ -25,6 +25,11 @@
  * profile URLs to `social` and the icons appear automatically:
  *   social: { linkedin: "https://…", facebook: "https://…", instagram: "https://…", x: "https://…" }
  *
+ * CUT-OUTS (Core Team cards)
+ * `cutout` = the same photo with the background removed (transparent WebP in
+ * public/assets/fz/staff/cut/), made with an offline background-removal model.
+ * A new person without a cut-out falls back to their normal `photo`.
+ *
  * PHOTOS
  * `photo: null` + `placeholder: "female"` shows the designed placeholder.
  * To add a real photo later: run the crop script (or drop a 4:5 image into
@@ -38,6 +43,7 @@ export const chairman = {
   role: "Group Chairman",
   org: "Flying Zone UAE",
   photo: `${P}/naveed-naz-lg.webp`,
+  cutout: `${P}/cut/naveed-naz.webp`,
   photoSize: { width: 446, height: 558 },
   eyebrow: "Leadership & Vision",
   title: "A Message from Our Chairman",
@@ -61,28 +67,28 @@ export const leadership = [
   {
     name: "Muhammad Yasin",
     role: "Chief Executive Officer",
-    photo: `${P}/muhammad-yasin.webp`,
+    photo: `${P}/muhammad-yasin.webp`, cutout: `${P}/cut/muhammad-yasin.webp`,
     social: {},
     confirm: "Old site named the CEO 'Muhammad Ahmed'.",
   },
-  { name: "Wasim Sajjad", role: "Managing Director", photo: `${P}/wasim-sajjad.webp`, social: {} },
   {
     name: "Muhammad Yaseen",
     role: "Director",
-    photo: `${P}/muhammad-yaseen.webp`,
+    photo: `${P}/muhammad-yaseen.webp`, cutout: `${P}/cut/muhammad-yaseen.webp`,
     social: {},
     confirm: "Old site said 'Managing Director'.",
   },
+  { name: "Wasim Sajjad", role: "Managing Director", photo: `${P}/wasim-sajjad.webp`, cutout: `${P}/cut/wasim-sajjad.webp`, social: {} },
 ];
 
 export const coreTeam = [
-  { name: "Asad Saleem", role: "Sales & Marketing Manager", photo: `${P}/asad-saleem.webp`, social: {} },
-  { name: "Tanzeel ur Rehman", role: "Umrah Operations Manager", photo: `${P}/tanzeel-ur-rehman.webp`, social: {} },
-  { name: "Ahsan Sarwar", role: "Reservation Manager, KSA", photo: `${P}/ahsan-sarwar.webp`, social: {} },
+  { name: "Asad Saleem", role: "Sales & Marketing Manager", photo: `${P}/asad-saleem.webp`, cutout: `${P}/cut/asad-saleem.webp`, social: {} },
+  { name: "Tanzeel ur Rehman", role: "Umrah Operations Manager", photo: `${P}/tanzeel-ur-rehman.webp`, cutout: `${P}/cut/tanzeel-ur-rehman.webp`, social: {} },
+  { name: "Ahsan Sarwar", role: "Reservation Manager, KSA", photo: `${P}/ahsan-sarwar.webp`, cutout: `${P}/cut/ahsan-sarwar.webp`, social: {} },
   { name: "Rimsha Naeem", role: "Customer Service Executive", photo: null, placeholder: "female", social: {} },
-  { name: "Asad Hussain", role: "Travel Consultant", photo: `${P}/asad-hussain.webp`, social: {} },
-  { name: "Mehran Sabir", role: "Umrah Executive", photo: `${P}/mehran-sabir.webp`, social: {} },
-  { name: "Khizer Raza", role: "Accounts Executive", photo: `${P}/khizer-raza.webp`, social: {} },
+  { name: "Asad Hussain", role: "Travel Consultant", photo: `${P}/asad-hussain.webp`, cutout: `${P}/cut/asad-hussain.webp`, social: {} },
+  { name: "Mehran Sabir", role: "Umrah Executive", photo: `${P}/mehran-sabir.webp`, cutout: `${P}/cut/mehran-sabir.webp`, social: {} },
+  { name: "Khizer Raza", role: "Accounts Executive", photo: `${P}/khizer-raza.webp`, cutout: `${P}/cut/khizer-raza.webp`, social: {} },
   // Hidden until confirmed (possible duplicates of Asad Saleem / Asad Hussain):
   { name: "Malik Asad", role: "Sales Officer", photo: null, social: {}, show: false },
   { name: "Asad", role: "Umrah Operations Officer", photo: null, social: {}, show: false },

@@ -39,8 +39,8 @@ export const footerNav = [
     links: [
       { label: "Umrah / Hajj", href: "/umrah" },
       { label: "Umrah by Bus", href: "/umrah/executive-umrah-bus-10-days" },
-      { label: "Umrah by Air", href: "/umrah/standard-umrah-air-08-days" },
-      { label: "Premium Umrah", href: "/umrah/premium-umrah-air-05-days" },
+      { label: "Umrah by Air", href: "/umrah#air-packages" },
+      { label: "Elite Umrah by Air", href: "/umrah/elite-umrah-package-by-air" },
       { label: "Hajj Information", href: "/umrah?mode=hajj" },
     ],
   },

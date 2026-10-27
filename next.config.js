@@ -21,6 +21,9 @@ const nextConfig = {
       // The old template "Hajj & Umrah" listing is superseded by /umrah. Its Hajj
       // detail pages are left untouched (their data still needs client confirmation).
       { source: "/hajj-umrah", destination: "/umrah", permanent: false },
+      // Old "by Air" packages, superseded by the client's four PDF packages.
+      { source: "/umrah/standard-umrah-air-08-days", destination: "/umrah/standard-umrah-package-by-air", permanent: false },
+      { source: "/umrah/premium-umrah-air-05-days", destination: "/umrah/premium-umrah-package-by-air", permanent: false },
       // Old Umrah package URLs point to the redesigned package pages (307 until the client signs off).
       ...["executive-umrah-bus-10-days", "standard-umrah-air-08-days", "premium-umrah-air-05-days"].map((slug) => ({
         source: `/hajj-umrah/${slug}`,

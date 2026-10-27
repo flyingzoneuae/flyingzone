@@ -1,0 +1,326 @@
+/* ==========================================================================
+   Message from our Chairman (components/site/staff/ChairmanMessage.jsx).
+   Self-contained; tokens from chrome.css. Motion via RevealScope ([data-st]).
+   ========================================================================== */
+
+.cm {
+  --cm-navy: #0f2759;
+  --cm-red: #d91e2b;
+  position: relative;
+  display: grid;
+  overflow: hidden;
+  background: #fff;
+  font-family: var(--fz-font-body);
+}
+
+.cm *,
+.cm *::before,
+.cm *::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Left: blue stage with portrait ---------- */
+
+.cm__stage {
+  position: relative;
+  min-height: 420px;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 80% at 20% 15%, rgba(120, 175, 255, 0.55), transparent 60%),
+    radial-gradient(90% 70% at 85% 90%, rgba(10, 40, 120, 0.6), transparent 60%),
+    linear-gradient(160deg, #2a6ae0 0%, #1f55c6 45%, #163a82 100%);
+}
+
+/* soft out-of-focus "office window" light bands */
+.cm__stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, transparent 6%, rgba(255, 255, 255, 0.10) 8%, transparent 14%),
+    linear-gradient(90deg, transparent 22%, rgba(255, 255, 255, 0.08) 25%, transparent 31%),
+    linear-gradient(90deg, transparent 58%, rgba(255, 255, 255, 0.07) 61%, transparent 67%);
+  filter: blur(6px);
+}
+
+.cm__glow {
+  position: absolute;
+  left: 30%;
+  top: 18%;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(170, 210, 255, 0.45), transparent);
+  filter: blur(10px);
+}
+
+.cm__arcs {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cm__person {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 2;
+  width: auto;
+  height: 92%;
+  max-width: 92%;
+  object-fit: contain;
+  object-position: center bottom;
+  transform: translateX(-50%);
+  filter: drop-shadow(0 24px 40px rgba(8, 25, 70, 0.45));
+}
+
+.cm__curve {
+  display: none;
+}
+
+/* ---------- Right: message ---------- */
+
+.cm__body {
+  position: relative;
+  z-index: 2;
+  padding: 44px 20px 64px;
+}
+
+.cm__bars {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.cm__bars span {
+  width: 64px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--cm-navy);
+}
+
+.cm__bars span + span {
+  width: 34px;
+  background: var(--cm-red);
+}
+
+.cm .cm__kicker {
+  margin: 0 0 6px;
+  color: #5d6780;
+  font: 600 12px/1.2 var(--fz-font-body);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.cm .cm__title {
+  margin: 0;
+  color: var(--cm-navy);
+  font: 900 clamp(1.75rem, 3.6vw, 3rem)/1.02 var(--fz-font-head);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.cm__title span {
+  display: block;
+  font-size: 1.62em;
+  line-height: 1;
+  background: linear-gradient(90deg, #1b54c9 0%, #2a8af0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.cm__message {
+  display: grid;
+  gap: 16px;
+  max-width: 60ch;
+  margin-top: 26px;
+}
+
+.cm .cm__message p {
+  margin: 0;
+  color: #2f3a55;
+  font: 400 1.0625rem/1.7 var(--fz-font-body);
+}
+
+.cm__sign {
+  display: grid;
+  gap: 4px;
+  max-width: 420px;
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 2px solid #dbe6f7;
+}
+
+.cm__sign strong {
+  color: var(--cm-navy);
+  font: 800 1.375rem/1.25 var(--fz-font-head);
+}
+
+.cm__sign span {
+  color: #6b7590;
+  font-size: 1rem;
+}
+
+/* ---------- Desktop: side by side with the big curve ---------- */
+
+@media (min-width: 992px) {
+  .cm {
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1fr);
+    min-height: 680px;
+  }
+
+  .cm__stage {
+    min-height: 100%;
+  }
+
+  .cm__person {
+    left: 46%;
+    height: 94%;
+  }
+
+  .cm__curve {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    display: block;
+    width: 26%;
+    height: 100%;
+  }
+
+  .cm__body {
+    align-self: center;
+    padding: 80px 48px 80px 8px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cm__body {
+    padding-right: max(48px, calc((100vw - 1320px) / 2));
+  }
+}
+
+/* ---------- Mobile: curve along the bottom of the photo ---------- */
+
+@media (max-width: 991.98px) {
+  .cm__stage {
+    height: 440px;
+    border-bottom-right-radius: 120px 60px;
+  }
+
+  .cm__stage::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    z-index: 3;
+    height: 6px;
+    background: linear-gradient(90deg, #2f7ef0, #5aa2ff);
+  }
+}
+
+/* ---------- Motion (RevealScope adds .st-motion) ---------- */
+
+.st-motion.cm [data-st] {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: calc(var(--i, 0) * 120ms);
+}
+
+.st-motion.cm [data-st].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+.st-motion.cm .cm__stage .cm__person {
+  transform: translateX(-50%) scale(1.04);
+  transition: transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.st-motion.cm .cm__stage.is-in .cm__person {
+  transform: translateX(-50%) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cm * {
+    transition: none !important;
+  }
+}
+
+/* ---------- Fit the section in one screen ---------- */
+
+@media (min-width: 992px) {
+  .cm {
+    /* full screen minus the sticky header, never taller than 680px */
+    height: min(680px, calc(100svh - var(--fz-header-h)));
+    min-height: 520px;
+  }
+
+  .cm__body {
+    padding-block: 32px;
+  }
+
+  .cm__bars {
+    margin-bottom: 12px;
+  }
+
+  .cm .cm__title {
+    font-size: clamp(1.625rem, min(2.6vw, 4.6svh), 2.5rem);
+  }
+
+  .cm__message {
+    gap: 10px;
+    margin-top: clamp(14px, 2.4svh, 22px);
+  }
+
+  .cm .cm__message p {
+    font-size: clamp(0.9375rem, 1.9svh, 1.0625rem);
+    line-height: 1.6;
+  }
+
+  .cm__sign {
+    margin-top: clamp(14px, 2.6svh, 24px);
+    padding-top: clamp(12px, 2svh, 20px);
+  }
+
+  .cm__sign strong {
+    font-size: 1.25rem;
+  }
+}
+
+/* Phones/tablets: shorter photo so heading and message start sooner */
+@media (max-width: 991.98px) {
+  .cm__stage {
+    height: min(340px, 42svh);
+    min-height: 260px;
+  }
+
+  .cm__body {
+    padding: 28px 20px 44px;
+  }
+
+  .cm__message {
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  .cm .cm__message p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .cm__sign {
+    margin-top: 20px;
+    padding-top: 16px;
+  }
+}
+
+/* hide the 1px sub-pixel seam between the blue stage and the white curve */
+@media (min-width: 992px) {
+  .cm__curve {
+    right: -2px;
+    width: calc(26% + 2px);
+  }
+}

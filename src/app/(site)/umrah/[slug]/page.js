@@ -131,6 +131,11 @@ export default function UmrahPackagePage({ params }) {
                 </details>
               ))}
             </div>
+            {pkg.note && (
+              <p className="fz-detail__note">
+                <strong>Important:</strong> {pkg.note}
+              </p>
+            )}
           </section>
         </div>
 
